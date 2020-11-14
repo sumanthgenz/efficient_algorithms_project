@@ -1,1 +1,1 @@
-# efficient_algorithms_project
+# efficient algorithms & intractable problems project
