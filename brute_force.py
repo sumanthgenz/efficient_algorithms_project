@@ -59,6 +59,12 @@ def check_assignment(assign, n_rooms):
                 return False
     return perm_happy, perm_stress
         
-fill_matrix("input10.txt")
     
 check_assignment([[0, 2, 4, 8, 6, 5], [1, 9, 3, 7]], 2)
+
+if __name__=="__main__":
+    fill_matrix("input10.txt")
+    compute_optimal(4)
+    check_assignment([[0, 2, 4, 8], [6, 5, 4], [1, 9], [1]], 4)
+
+
