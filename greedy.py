@@ -92,7 +92,7 @@ def printRooms(rooms, toFile=False, fn=""):
 	print([[(j, i) for j in maxRooms[i].students] for i in range(len(rooms))])
 	if toFile:
 		f = open(fn, "w")
-		f.write("\n".join(["\n".join([str(j) + " " +  str(i) for j in maxRooms[i].students]) for i in range(len(rooms))]))
+		f.write("\n".join(["\n".join([str(j) + " " +  str(i) for j in rooms[i].students]) for i in range(len(rooms))]))
 		f.close()
 
 maxHappiness = -1
@@ -106,9 +106,9 @@ for i in range(NUM_ITER):
 
 
 print("Greedy:")
-printRooms(maxRooms)
+printRooms(maxRooms)#, toFile=True, fn=OUT_FN)
 print("\nIdeal:")
-printRooms(main.idealRooms, toFile=False)#, fn=OUT_FN)
+printRooms(main.idealRooms)#, toFile=True, fn=OUT_FN)
 
 
 
