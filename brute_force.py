@@ -16,6 +16,7 @@ def fill_matrix(file):
         s_matrix[r][c], s_matrix[c][r] = s, s
 
 
+#faulty
 def compute_optimal(n_rooms):
     best_score = 0
     best_assign = []
@@ -45,5 +46,20 @@ def compute_optimal(n_rooms):
                 
 fill_matrix("input10.txt")
 
-for num_rooms in range(1, n_students+1):
-    print(compute_optimal(num_rooms))
+def check_assignment(assign, n_rooms):
+    perm_happy = 0
+    perm_stress = 0
+    room_budget = s_max/n_rooms
+
+    for room in assign:
+        room_stress = 0
+        for comb in itertools.combinations(room, 2):
+            perm_happy += h_matrix[comb[0], comb[1]]
+            perm_stress += s_matrix[comb[0], comb[1]]
+            room_stress += s_matrix[comb[0], comb[1]]
+            if room_stress > room_budget:
+                return False
+    return perm_happy, perm_stress
+        
+
+check_assignment([[0, 2, 4, 8, 6, 5], [1, 9, 3, 7]], 2)
