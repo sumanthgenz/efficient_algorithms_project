@@ -60,7 +60,6 @@ def check_assignment(assign, n_rooms):
     return perm_happy, perm_stress
         
     
-check_assignment([[0, 2, 4, 8, 6, 5], [1, 9, 3, 7]], 2)
 
 if __name__=="__main__":
     fill_matrix("input10.txt")
