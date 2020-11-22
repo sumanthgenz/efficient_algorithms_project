@@ -44,8 +44,6 @@ def compute_optimal(n_rooms):
                 best_score = perm_happy
     return best_assign, best_score
                 
-fill_matrix("input10.txt")
-
 def check_assignment(assign, n_rooms):
     perm_happy = 0
     perm_stress = 0
@@ -61,5 +59,6 @@ def check_assignment(assign, n_rooms):
                 return False
     return perm_happy, perm_stress
         
-
+fill_matrix("input10.txt")
+    
 check_assignment([[0, 2, 4, 8, 6, 5], [1, 9, 3, 7]], 2)
