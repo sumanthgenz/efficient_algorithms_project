@@ -57,7 +57,7 @@ def visualize_clusters(points):
 if __name__=="__main__":
 #     centroids = generate_gaussian_centroids()
     centroids = generate_helical_centroids()
-    clusters = generate_gaussian_mixture(centroids)
-    visualize_clusters(clusters)
-    assert(len(clusters)==num_points)
-    return clusters
+    points = generate_gaussian_mixture(centroids)
+    visualize_clusters(points)
+    assert(len(points)==num_points)
+    return points
