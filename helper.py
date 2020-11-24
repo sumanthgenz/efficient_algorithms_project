@@ -16,7 +16,7 @@ def fill_matrix(file):
         s_matrix[r][c], s_matrix[c][r] = s, s
 
 
-#faulty
+#limited to roughly same room sizes, else "intractable" to enumerate all balls/bins permutations
 def compute_optimal(n_rooms):
     best_score = 0
     best_assign = []
