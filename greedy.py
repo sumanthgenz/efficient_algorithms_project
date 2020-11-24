@@ -1,10 +1,10 @@
 import random
 
 
-IN_FN = "input-versions/20v7.txt"
+IN_FN = "input-versions/10-sample.in"#proj-inputs/10.in"#input-versions/20v7.txt"#proj-inputs/10.in"#input-versions/20v7.txt"#10-sample.in"#20v7.txt"
 OUT_FN = "input-versions/20v7_out.txt"
-IDEAL_ROOMS = [[0, 1], [2, 3], [4, 5], [6, 7], [8, 9], [10, 11], [12, 13], [14, 15], [16, 17], [18, 19]]
-NUM_ITER = 1000
+IDEAL_ROOMS = []#[[0, 1], [2, 3], [4, 5], [6, 7], [8, 9], [10, 11], [12, 13], [14, 15], [16, 17], [18, 19]]#[[7, 2, 1], [5, 0, 9], [8, 6, 3, 4]]#[[0, 1], [2, 3], [4, 5], [6, 7], [8, 9], [10, 11], [12, 13], [14, 15], [16, 17], [18, 19]]#
+NUM_ITER = 500
 
 class Room:
 	def __init__(self, students, array, stress, happiness):
@@ -29,7 +29,13 @@ class Room:
 	def merge(self, otherRoom): # merges the two rooms
 		self.happiness, self.stress = self.getMergeValues(otherRoom)
 		self.students.extend(otherRoom.students)
-
+	def studentValues(self, student):
+		removeHappiness = 0
+		removeStress = 0
+		for other in self.students:
+			removeHappiness += self.array[other][student][0]
+			removeStress += self.array[other][student][1]
+		return removeHappiness, removeStress
 class Main:
 	def __init__(self, fn): 
 		self.array = []
@@ -61,26 +67,72 @@ class Main:
 		for i in range(self.n):
 			self.rooms.append(Room([i], self.array, 0, 0))
 		while(True):
-			maxHappinessAdded = 0
+			'''maxHappinessAdded = 0
 			maxAddedIndex = []
-			maxMergedFromIndex = []
+			maxMergedFromIndex = []'''
+			maxHappiness = []
 			for i in range(len(self.rooms)):
 				for j in range(i+1, len(self.rooms)):
 					mergeHappiness, mergeStress = self.rooms[i].getMergeValues(self.rooms[j])
-					if mergeHappiness > maxHappinessAdded and mergeStress <= self.totalStress/(len(self.rooms) - 1):
+					if mergeStress <= self.totalStress/(len(self.rooms) - 1):
+						maxHappiness.append((i, j, mergeHappiness))
+					'''if mergeHappiness > maxHappinessAdded and mergeStress <= self.totalStress/(len(self.rooms) - 1):
 						maxHappinessAdded = mergeHappiness
 						maxAddedIndex = [i]
 						maxMergedFromIndex = [j]
 					elif mergeHappiness == maxHappinessAdded:
 						maxAddedIndex.append(i)
-						maxMergedFromIndex.append(j)
-			if (maxAddedIndex != []):
+						maxMergedFromIndex.append(j)'''
+			maxHappiness = sorted(maxHappiness, key=lambda x: -x[2])
+			topHappinesses = []
+			topMerges = []
+			for merge in maxHappiness:
+				if (len(topHappinesses) < 5):
+					if (merge[2] not in topHappinesses):
+						topHappinesses.append(merge[2])
+					topMerges.append(merge)
+				else:
+					break
+			if (topMerges != []):
+				randInd = random.randrange(len(topMerges))
+				randMerge = topMerges[randInd]
+				self.rooms[randMerge[0]].merge(self.rooms[randMerge[1]])
+				self.rooms.remove(self.rooms[randMerge[1]])
+			else:
+				break
+
+			'''if (maxAddedIndex != []):
 				randInd = random.randrange(len(maxMergedFromIndex))
 				self.rooms[maxAddedIndex[randInd]].merge(self.rooms[maxMergedFromIndex[randInd]])
 				self.rooms.remove(self.rooms[maxMergedFromIndex[randInd]])
 			else:
-				break
-			
+				break'''
+			#printRooms(self.rooms)
+		for x in range(200):
+			random.shuffle(self.rooms)
+			for room in self.rooms:
+				random.shuffle(room.students)
+				for student in room.students:
+					maxGainRoom = room
+					removeHappiness, removeStress = room.studentValues(student)
+					maxGain, maxStress = removeHappiness, removeStress
+					for toRoom in self.rooms:
+						newHappiness, newStress = toRoom.studentValues(student)
+						stressLimit = self.totalStress/(len(self.rooms) - (len(room.students) - 1 == 0))
+						if toRoom.stress + newStress < stressLimit: # TODO adjust the denominator if we end up emptying a room
+							if newHappiness > maxGain:
+								maxGain = newHappiness
+								maxStress = newStress
+								maxGainRoom = toRoom
+					if maxGainRoom is not room:
+						room.students.remove(student)
+						room.stress -= removeStress
+						room.happiness -= removeHappiness
+						if len(room.students) == 0:
+							self.rooms.remove(room)
+						maxGainRoom.students.append(student)
+						maxGainRoom.stress += maxStress
+						maxGainRoom.happiness += maxGain
 		# while we can still merge groups
 			# find the best pair of rooms to merge (based on either happiness added or happiness/stress added)
 			# merge the pair of rooms --> update the total happiness, update the stress in the combined room as well
@@ -89,7 +141,7 @@ class Main:
 def printRooms(rooms, toFile=False, fn=""):
 	print([("Room: " + str(room.students), "Happiness:" + str(room.happiness), "Stress: " + str(room.stress)) for room in rooms])
 	print("Total Happiness: " + str(sum([room.happiness for room in rooms])))
-	print([[(j, i) for j in maxRooms[i].students] for i in range(len(rooms))])
+	print([[(j, i) for j in rooms[i].students] for i in range(len(rooms))])
 	if toFile:
 		f = open(fn, "w")
 		f.write("\n".join(["\n".join([str(j) + " " +  str(i) for j in rooms[i].students]) for i in range(len(rooms))]))
