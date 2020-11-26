@@ -1,11 +1,14 @@
 import random
+import glob
 
 
-IN_FN = "input-versions/10-sample.in"#proj-inputs/10.in"#input-versions/20v7.txt"#proj-inputs/10.in"#input-versions/20v7.txt"#10-sample.in"#20v7.txt"
-OUT_FN = "input-versions/20v7_out.txt"
-IDEAL_ROOMS = []#[[0, 1], [2, 3], [4, 5], [6, 7], [8, 9], [10, 11], [12, 13], [14, 15], [16, 17], [18, 19]]#[[7, 2, 1], [5, 0, 9], [8, 6, 3, 4]]#[[0, 1], [2, 3], [4, 5], [6, 7], [8, 9], [10, 11], [12, 13], [14, 15], [16, 17], [18, 19]]#
+IN_FN = "input-versions/20-cluster.txt" #input-versions/50-cluster.txt"#proj-inputs/10.in"#input-versions/20v7.txt"#proj-inputs/10.in"#input-versions/20v7.txt"#10-sample.in"#20v7.txt"
+OUT_FN = "proj-inputs/20.out"#"input-versions/20v7_out.txt"
+IDEAL_ROOMS = []#[[0, 1], [2, 3], [4, 5], [6, 7], [8, 9], [10, 11], [12, 13], [14, 15], [16, 17], [18, 19]]#[[7, 2, 1], [5, 0, 9], [8, 6, 3, 4]]#[[0, 1], [2, 3], [4, 5], [6, 7], [8, 9], [10, 11], [12, 13], [14, 15], [16, 17], [18, 19]]#[]#[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9], [10, 11, 12, 13, 14], [15, 16, 17, 18, 19], [20, 21, 22, 23, 24], [25, 26, 27, 28, 29], [30, 31, 32, 33, 34], [35, 36, 37, 38, 39], [40, 41, 42, 43, 44], [45, 46, 47, 48, 49]]#[[6, 3, 4, 5], [1, 8, 7], [2, 14, 13, 12],  [18, 0, 19], [16, 17, 15], [11, 10, 9]]
+#[[0, 1, 2], [3, 4, 5], [6, 7, 8], [9, 10, 11], [12, 13, 14], [15, 16, 17], [18, 19]]#[]#
 NUM_ITER = 500
-
+TOP_RAND_SEL = 5
+#7.245+7.522+7.532+7.026+7.093+7.56+6.922+7.353+7.094+7.063
 class Room:
 	def __init__(self, students, array, stress, happiness):
 		self.students = students
@@ -62,8 +65,13 @@ class Main:
 			room = Room(students, self.array, 0, 0)
 			room.autofill()
 			self.idealRooms.append(room)
+		'''print("\nIdeal:")
+		print('Num Rooms: ' + str(len(IDEAL_ROOMS)))
+		print('Max Stress per room: ' + str(self.totalStress/len(IDEAL_ROOMS)))
+		printRooms(self.idealRooms)#, toFile=True, fn=OUT_FN)'''
 		
 	def run(self):
+		self.rooms = []
 		for i in range(self.n):
 			self.rooms.append(Room([i], self.array, 0, 0))
 		while(True):
@@ -87,7 +95,7 @@ class Main:
 			topHappinesses = []
 			topMerges = []
 			for merge in maxHappiness:
-				if (len(topHappinesses) < 5):
+				if (len(topHappinesses) < TOP_RAND_SEL):
 					if (merge[2] not in topHappinesses):
 						topHappinesses.append(merge[2])
 					topMerges.append(merge)
@@ -147,20 +155,31 @@ def printRooms(rooms, toFile=False, fn=""):
 		f.write("\n".join(["\n".join([str(j) + " " +  str(i) for j in rooms[i].students]) for i in range(len(rooms))]))
 		f.close()
 
-maxHappiness = -1
-maxRooms = []
-for i in range(NUM_ITER):
-	main = Main(IN_FN)
-	main.run()
-	if (sum([room.happiness for room in main.rooms]) > maxHappiness):
-		maxHappiness = sum([room.happiness for room in main.rooms])
-		maxRooms = main.rooms
+
+files = glob.glob("inputs/large/*.in")
+print(files)
+for file in files:
+	maxHappiness = -1
+	maxRooms = []
+	main = Main(file)
+	for i in range(NUM_ITER):
+		
+		main.run()
+		if (sum([room.happiness for room in main.rooms]) > maxHappiness):
+			maxHappiness = sum([room.happiness for room in main.rooms])
+			maxRooms = main.rooms
 
 
-print("Greedy:")
-printRooms(maxRooms)#, toFile=True, fn=OUT_FN)
-print("\nIdeal:")
-printRooms(main.idealRooms)#, toFile=True, fn=OUT_FN)
+	print("\n" + file)
+	print("Greedy:")
+	print('Num Rooms: ' + str(len(maxRooms)))
+	print('Max Stress per room: ' + str(main.totalStress/len(maxRooms)))
+	printRooms(maxRooms, toFile=True, fn=file.replace("in", "out").replace("inputs", "outputs"))
+	'''if IDEAL_ROOMS is not []:
+		print("\nIdeal:")
+		print('Num Rooms: ' + str(len(IDEAL_ROOMS)))
+		print('Max Stress per room: ' + str(main.totalStress/len(IDEAL_ROOMS)))
+		printRooms(main.idealRooms)#ƒ, toFile=True, fn=OUT_FN)'''
 
 
 
