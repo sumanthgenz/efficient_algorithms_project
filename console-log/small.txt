@@ -1,0 +1,1454 @@
+Small inputs
+['inputs/small/small-161.in', 'inputs/small/small-130.in', 'inputs/small/small-192.in', 'inputs/small/small-203.in', 'inputs/small/small-104.in', 'inputs/small/small-155.in', 'inputs/small/small-237.in', 'inputs/small/small-79.in', 'inputs/small/small-28.in', 'inputs/small/small-38.in', 'inputs/small/small-69.in', 'inputs/small/small-227.in', 'inputs/small/small-145.in', 'inputs/small/small-114.in', 'inputs/small/small-213.in', 'inputs/small/small-182.in', 'inputs/small/small-242.in', 'inputs/small/small-120.in', 'inputs/small/small-171.in', 'inputs/small/small-151.in', 'inputs/small/small-100.in', 'inputs/small/small-233.in', 'inputs/small/small-134.in', 'inputs/small/small-165.in', 'inputs/small/small-207.in', 'inputs/small/small-196.in', 'inputs/small/small-49.in', 'inputs/small/small-18.in', 'inputs/small/small-59.in', 'inputs/small/small-186.in', 'inputs/small/small-217.in', 'inputs/small/small-175.in', 'inputs/small/small-124.in', 'inputs/small/small-223.in', 'inputs/small/small-110.in', 'inputs/small/small-141.in', 'inputs/small/small-150.in', 'inputs/small/small-101.in', 'inputs/small/small-232.in', 'inputs/small/small-135.in', 'inputs/small/small-164.in', 'inputs/small/small-197.in', 'inputs/small/small-206.in', 'inputs/small/small-48.in', 'inputs/small/small-19.in', 'inputs/small/small-58.in', 'inputs/small/small-216.in', 'inputs/small/small-187.in', 'inputs/small/small-174.in', 'inputs/small/small-125.in', 'inputs/small/small-222.in', 'inputs/small/small-111.in', 'inputs/small/small-140.in', 'inputs/small/small-160.in', 'inputs/small/small-131.in', 'inputs/small/small-202.in', 'inputs/small/small-193.in', 'inputs/small/small-105.in', 'inputs/small/small-154.in', 'inputs/small/small-236.in', 'inputs/small/small-78.in', 'inputs/small/small-29.in', 'inputs/small/small-39.in', 'inputs/small/small-68.in', 'inputs/small/small-226.in', 'inputs/small/small-144.in', 'inputs/small/small-115.in', 'inputs/small/small-183.in', 'inputs/small/small-212.in', 'inputs/small/small-121.in', 'inputs/small/small-170.in', 'inputs/small/small-16.in', 'inputs/small/small-47.in', 'inputs/small/small-73.in', 'inputs/small/small-22.in', 'inputs/small/small-80.in', 'inputs/small/small-209.in', 'inputs/small/small-198.in', 'inputs/small/small-5.in', 'inputs/small/small-188.in', 'inputs/small/small-219.in', 'inputs/small/small-90.in', 'inputs/small/small-32.in', 'inputs/small/small-63.in', 'inputs/small/small-57.in', 'inputs/small/small-26.in', 'inputs/small/small-77.in', 'inputs/small/small-84.in', 'inputs/small/small-43.in', 'inputs/small/small-12.in', 'inputs/small/small-239.in', 'inputs/small/small-1.in', 'inputs/small/small-229.in', 'inputs/small/small-53.in', 'inputs/small/small-94.in', 'inputs/small/small-67.in', 'inputs/small/small-36.in', 'inputs/small/small-27.in', 'inputs/small/small-76.in', 'inputs/small/small-85.in', 'inputs/small/small-42.in', 'inputs/small/small-13.in', 'inputs/small/small-238.in', 'inputs/small/small-228.in', 'inputs/small/small-52.in', 'inputs/small/small-95.in', 'inputs/small/small-66.in', 'inputs/small/small-37.in', 'inputs/small/small-17.in', 'inputs/small/small-46.in', 'inputs/small/small-72.in', 'inputs/small/small-23.in', 'inputs/small/small-81.in', 'inputs/small/small-199.in', 'inputs/small/small-208.in', 'inputs/small/small-4.in', 'inputs/small/small-218.in', 'inputs/small/small-189.in', 'inputs/small/small-91.in', 'inputs/small/small-33.in', 'inputs/small/small-62.in', 'inputs/small/small-56.in', 'inputs/small/small-86.in', 'inputs/small/small-75.in', 'inputs/small/small-24.in', 'inputs/small/small-10.in', 'inputs/small/small-41.in', 'inputs/small/small-108.in', 'inputs/small/small-159.in', 'inputs/small/small-3.in', 'inputs/small/small-149.in', 'inputs/small/small-118.in', 'inputs/small/small-51.in', 'inputs/small/small-34.in', 'inputs/small/small-65.in', 'inputs/small/small-96.in', 'inputs/small/small-45.in', 'inputs/small/small-14.in', 'inputs/small/small-82.in', 'inputs/small/small-20.in', 'inputs/small/small-71.in', 'inputs/small/small-138.in', 'inputs/small/small-7.in', 'inputs/small/small-169.in', 'inputs/small/small-179.in', 'inputs/small/small-128.in', 'inputs/small/small-61.in', 'inputs/small/small-30.in', 'inputs/small/small-92.in', 'inputs/small/small-55.in', 'inputs/small/small-44.in', 'inputs/small/small-15.in', 'inputs/small/small-83.in', 'inputs/small/small-21.in', 'inputs/small/small-70.in', 'inputs/small/small-6.in', 'inputs/small/small-139.in', 'inputs/small/small-168.in', 'inputs/small/small-178.in', 'inputs/small/small-129.in', 'inputs/small/small-60.in', 'inputs/small/small-31.in', 'inputs/small/small-93.in', 'inputs/small/small-54.in', 'inputs/small/small-87.in', 'inputs/small/small-74.in', 'inputs/small/small-25.in', 'inputs/small/small-11.in', 'inputs/small/small-40.in', 'inputs/small/small-109.in', 'inputs/small/small-158.in', 'inputs/small/small-2.in', 'inputs/small/small-148.in', 'inputs/small/small-119.in', 'inputs/small/small-50.in', 'inputs/small/small-35.in', 'inputs/small/small-64.in', 'inputs/small/small-97.in', 'inputs/small/small-231.in', 'inputs/small/small-102.in', 'inputs/small/small-153.in', 'inputs/small/small-205.in', 'inputs/small/small-194.in', 'inputs/small/small-167.in', 'inputs/small/small-9.in', 'inputs/small/small-136.in', 'inputs/small/small-126.in', 'inputs/small/small-177.in', 'inputs/small/small-184.in', 'inputs/small/small-215.in', 'inputs/small/small-143.in', 'inputs/small/small-112.in', 'inputs/small/small-221.in', 'inputs/small/small-190.in', 'inputs/small/small-201.in', 'inputs/small/small-132.in', 'inputs/small/small-163.in', 'inputs/small/small-235.in', 'inputs/small/small-157.in', 'inputs/small/small-106.in', 'inputs/small/small-88.in', 'inputs/small/small-98.in', 'inputs/small/small-116.in', 'inputs/small/small-147.in', 'inputs/small/small-225.in', 'inputs/small/small-173.in', 'inputs/small/small-122.in', 'inputs/small/small-240.in', 'inputs/small/small-211.in', 'inputs/small/small-180.in', 'inputs/small/small-200.in', 'inputs/small/small-191.in', 'inputs/small/small-133.in', 'inputs/small/small-162.in', 'inputs/small/small-234.in', 'inputs/small/small-156.in', 'inputs/small/small-107.in', 'inputs/small/small-89.in', 'inputs/small/small-99.in', 'inputs/small/small-117.in', 'inputs/small/small-146.in', 'inputs/small/small-224.in', 'inputs/small/small-172.in', 'inputs/small/small-123.in', 'inputs/small/small-241.in', 'inputs/small/small-181.in', 'inputs/small/small-210.in', 'inputs/small/small-230.in', 'inputs/small/small-103.in', 'inputs/small/small-152.in', 'inputs/small/small-195.in', 'inputs/small/small-204.in', 'inputs/small/small-166.in', 'inputs/small/small-137.in', 'inputs/small/small-8.in', 'inputs/small/small-127.in', 'inputs/small/small-176.in', 'inputs/small/small-214.in', 'inputs/small/small-185.in', 'inputs/small/small-142.in', 'inputs/small/small-113.in', 'inputs/small/small-220.in']
+Greedy:
+Num Rooms: 3
+Max Stress per room: 22.0
+[('Room: [3, 8, 4, 6]', 'Happiness:506.899', 'Stress: 1.354'), ('Room: [1, 2, 7]', 'Happiness:260.61600000000004', 'Stress: 0.3619999999999992'), ('Room: [5, 9, 0]', 'Happiness:223.071', 'Stress: 0.43200000000000005')]
+Total Happiness: 990.5860000000001
+[[(3, 0), (8, 0), (4, 0), (6, 0)], [(1, 1), (2, 1), (7, 1)], [(5, 2), (9, 2), (0, 2)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 10.0
+[('Room: [8, 2]', 'Happiness:30.5', 'Stress: 4.64'), ('Room: [9]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [4, 7]', 'Happiness:18.2', 'Stress: 7.4'), ('Room: [0, 3, 1]', 'Happiness:71.1', 'Stress: 9.76'), ('Room: [5, 6]', 'Happiness:26.8', 'Stress: 7.27')]
+Total Happiness: 146.6
+[[(8, 0), (2, 0)], [(9, 1)], [(4, 2), (7, 2)], [(0, 3), (3, 3), (1, 3)], [(5, 4), (6, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 24.47575
+[('Room: [9, 6, 8]', 'Happiness:144.892', 'Stress: 22.447000000000003'), ('Room: [4, 0, 1]', 'Happiness:262.103', 'Stress: 21.357'), ('Room: [3]', 'Happiness:-3.552713678800501e-15', 'Stress: 1.7763568394002505e-15'), ('Room: [2, 7, 5]', 'Happiness:256.879', 'Stress: 23.825999999999997')]
+Total Happiness: 663.874
+[[(9, 0), (6, 0), (8, 0)], [(4, 1), (0, 1), (1, 1)], [(3, 2)], [(2, 3), (7, 3), (5, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 32.60066666666667
+[('Room: [4, 5, 7, 6, 3, 9, 2]', 'Happiness:1462.5820000000003', 'Stress: 32.534'), ('Room: [8, 1]', 'Happiness:74.49', 'Stress: 31.581'), ('Room: [0]', 'Happiness:0.0', 'Stress: 0.0')]
+Total Happiness: 1537.0720000000003
+[[(4, 0), (5, 0), (7, 0), (6, 0), (3, 0), (9, 0), (2, 0)], [(8, 1), (1, 1)], [(0, 2)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 24.75
+[('Room: [5, 0]', 'Happiness:12.3', 'Stress: 13.0'), ('Room: [4, 6]', 'Happiness:7.500000000000002', 'Stress: 8.9'), ('Room: [1, 2, 9]', 'Happiness:23.8', 'Stress: 15.9'), ('Room: [7, 3, 8]', 'Happiness:14.399999999999999', 'Stress: 23.700000000000003')]
+Total Happiness: 58.00000000000001
+[[(5, 0), (0, 0)], [(4, 1), (6, 1)], [(1, 2), (2, 2), (9, 2)], [(7, 3), (3, 3), (8, 3)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 5.0
+[('Room: [9, 1, 8, 3, 0]', 'Happiness:4.079999999999999', 'Stress: 4.079999999999999'), ('Room: [4, 7, 6, 5, 2]', 'Happiness:4.08', 'Stress: 4.08')]
+Total Happiness: 8.16
+[[(9, 0), (1, 0), (8, 0), (3, 0), (0, 0)], [(4, 1), (7, 1), (6, 1), (5, 1), (2, 1)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.0
+[('Room: [6, 1, 9]', 'Happiness:223.68400000000003', 'Stress: 22.897'), ('Room: [8, 3, 5]', 'Happiness:271.515', 'Stress: 13.437999999999999'), ('Room: [7, 2, 4, 0]', 'Happiness:388.94000000000005', 'Stress: 30.586000000000002')]
+Total Happiness: 884.1390000000001
+[[(6, 0), (1, 0), (9, 0)], [(8, 1), (3, 1), (5, 1)], [(7, 2), (2, 2), (4, 2), (0, 2)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 11.0
+[('Room: [2, 4]', 'Happiness:20.0', 'Stress: 5.5'), ('Room: [0, 9]', 'Happiness:20.0', 'Stress: 8.0'), ('Room: [3, 1]', 'Happiness:20.0', 'Stress: 5.5'), ('Room: [5, 8]', 'Happiness:20.0', 'Stress: 5.5'), ('Room: [7, 6]', 'Happiness:20.0', 'Stress: 8.0')]
+Total Happiness: 100.0
+[[(2, 0), (4, 0)], [(0, 1), (9, 1)], [(3, 2), (1, 2)], [(5, 3), (8, 3)], [(7, 4), (6, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 23.345
+[('Room: [1, 3, 4]', 'Happiness:170.76999999999998', 'Stress: 21.86'), ('Room: [0]', 'Happiness:2.220446049250313e-15', 'Stress: -2.6645352591003757e-15'), ('Room: [2, 9, 5]', 'Happiness:64.9', 'Stress: 23.239999999999995'), ('Room: [8, 7, 6]', 'Happiness:217.45999999999998', 'Stress: 19.38')]
+Total Happiness: 453.13
+[[(1, 0), (3, 0), (4, 0)], [(0, 1)], [(2, 2), (9, 2), (5, 2)], [(8, 3), (7, 3), (6, 3)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 19.69875
+[('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [1, 0, 2]', 'Happiness:251.003', 'Stress: 6.648000000000001'), ('Room: [3, 4]', 'Happiness:86.516', 'Stress: 3.939'), ('Room: [5, 6, 7, 8]', 'Happiness:505.42800000000005', 'Stress: 8.508')]
+Total Happiness: 842.9470000000001
+[[(9, 0)], [(1, 1), (0, 1), (2, 1)], [(3, 2), (4, 2)], [(5, 3), (6, 3), (7, 3), (8, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 25.0
+[('Room: [3, 1, 4, 2, 0]', 'Happiness:100.0', 'Stress: 24.0'), ('Room: [5, 6, 7]', 'Happiness:75.0', 'Stress: 23.0'), ('Room: [8, 9]', 'Happiness:30.0', 'Stress: 15.0')]
+Total Happiness: 205.0
+[[(3, 0), (1, 0), (4, 0), (2, 0), (0, 0)], [(5, 1), (6, 1), (7, 1)], [(8, 2), (9, 2)]]
+Greedy:
+Num Rooms: 1
+Max Stress per room: 50.0
+[('Room: [4, 0, 8, 3, 2, 9, 7, 1, 6, 5]', 'Happiness:21.96000000000001', 'Stress: 23.644')]
+Total Happiness: 21.96000000000001
+[[(4, 0), (0, 0), (8, 0), (3, 0), (2, 0), (9, 0), (7, 0), (1, 0), (6, 0), (5, 0)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 18.25
+[('Room: [4, 3]', 'Happiness:20.0', 'Stress: 10.0'), ('Room: [8, 6]', 'Happiness:5.0', 'Stress: 4.0'), ('Room: [9, 0, 7]', 'Happiness:15.0', 'Stress: 12.0'), ('Room: [5, 1, 2]', 'Happiness:16.0', 'Stress: 12.0')]
+Total Happiness: 56.0
+[[(4, 0), (3, 0)], [(8, 1), (6, 1)], [(9, 2), (0, 2), (7, 2)], [(5, 3), (1, 3), (2, 3)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 17.988999999999997
+[('Room: [8, 2, 3]', 'Happiness:220.8', 'Stress: 16.814999999999998'), ('Room: [9, 6]', 'Happiness:92.971', 'Stress: 11.652'), ('Room: [0, 1]', 'Happiness:32.817', 'Stress: 10.543'), ('Room: [5, 7]', 'Happiness:64.061', 'Stress: 14.544'), ('Room: [4]', 'Happiness:0.0', 'Stress: 0.0')]
+Total Happiness: 410.649
+[[(8, 0), (2, 0), (3, 0)], [(9, 1), (6, 1)], [(0, 2), (1, 2)], [(5, 3), (7, 3)], [(4, 4)]]
+Greedy:
+Num Rooms: 1
+Max Stress per room: 80.0
+[('Room: [2, 3, 7, 0, 9, 4, 1, 8, 6, 5]', 'Happiness:327.33100000000013', 'Stress: 78.27600000000001')]
+Total Happiness: 327.33100000000013
+[[(2, 0), (3, 0), (7, 0), (0, 0), (9, 0), (4, 0), (1, 0), (8, 0), (6, 0), (5, 0)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 33.75
+[('Room: [4, 6, 5, 2]', 'Happiness:47.53500000000001', 'Stress: 20.037'), ('Room: [3, 1, 0, 7, 9, 8]', 'Happiness:76.13300000000001', 'Stress: 31.203000000000003')]
+Total Happiness: 123.66800000000002
+[[(4, 0), (6, 0), (5, 0), (2, 0)], [(3, 1), (1, 1), (0, 1), (7, 1), (9, 1), (8, 1)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 16.6
+[('Room: [7, 3]', 'Happiness:10.0', 'Stress: 9.386'), ('Room: [8, 5]', 'Happiness:8.0', 'Stress: 7.983'), ('Room: [9, 0]', 'Happiness:6.0', 'Stress: 9.578'), ('Room: [1]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [4, 2, 6]', 'Happiness:17.0', 'Stress: 13.873000000000001')]
+Total Happiness: 41.0
+[[(7, 0), (3, 0)], [(8, 1), (5, 1)], [(9, 2), (0, 2)], [(1, 3)], [(4, 4), (2, 4), (6, 4)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 4.78
+[('Room: [4]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [5, 8]', 'Happiness:70.28', 'Stress: 0.746'), ('Room: [0, 3]', 'Happiness:23.234', 'Stress: 3.45'), ('Room: [9, 1]', 'Happiness:68.24', 'Stress: 0.32'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [2, 6]', 'Happiness:29.884', 'Stress: 2.84')]
+Total Happiness: 191.63800000000003
+[[(4, 0)], [(5, 1), (8, 1)], [(0, 2), (3, 2)], [(9, 3), (1, 3)], [(7, 4)], [(2, 5), (6, 5)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 7.5
+[('Room: [3, 2]', 'Happiness:6.0', 'Stress: 5.0'), ('Room: [4, 9, 5, 0, 7, 1, 8, 6]', 'Happiness:6.162000000000002', 'Stress: 4.0')]
+Total Happiness: 12.162000000000003
+[[(3, 0), (2, 0)], [(4, 1), (9, 1), (5, 1), (0, 1), (7, 1), (1, 1), (8, 1), (6, 1)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 16.318
+[('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [6, 3]', 'Happiness:83.54', 'Stress: 16.318'), ('Room: [5, 9, 7]', 'Happiness:254.62', 'Stress: 6.164'), ('Room: [1, 8, 0]', 'Happiness:267.123', 'Stress: 10.483'), ('Room: [2]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 605.283
+[[(4, 0)], [(6, 1), (3, 1)], [(5, 2), (9, 2), (7, 2)], [(1, 3), (8, 3), (0, 3)], [(2, 4)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 12.913
+[('Room: [5, 2]', 'Happiness:21.316', 'Stress: 3.6'), ('Room: [0]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [6, 3, 4]', 'Happiness:91.786', 'Stress: 12.734'), ('Room: [7, 1]', 'Happiness:23.104', 'Stress: 0.196'), ('Room: [9, 8]', 'Happiness:51.984', 'Stress: 4.096')]
+Total Happiness: 188.19000000000003
+[[(5, 0), (2, 0)], [(0, 1)], [(6, 2), (3, 2), (4, 2)], [(7, 3), (1, 3)], [(9, 4), (8, 4)]]
+Greedy:
+Num Rooms: 8
+Max Stress per room: 5.25
+[('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [3]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [4, 5]', 'Happiness:84.455', 'Stress: 1.119'), ('Room: [2, 0]', 'Happiness:85.583', 'Stress: 4.086'), ('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [8]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 170.038
+[[(1, 0)], [(3, 1)], [(7, 2)], [(6, 3)], [(4, 4), (5, 4)], [(2, 5), (0, 5)], [(9, 6)], [(8, 7)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 10.0002
+[('Room: [5, 1]', 'Happiness:6.969', 'Stress: 6.969'), ('Room: [6, 2]', 'Happiness:5.84', 'Stress: 5.84'), ('Room: [3, 0]', 'Happiness:7.93', 'Stress: 7.93'), ('Room: [7, 4]', 'Happiness:5.367', 'Stress: 5.367'), ('Room: [9, 8]', 'Happiness:10.0', 'Stress: 10.0')]
+Total Happiness: 36.106
+[[(5, 0), (1, 0)], [(6, 1), (2, 1)], [(3, 2), (0, 2)], [(7, 3), (4, 3)], [(9, 4), (8, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 20.0
+[('Room: [1, 6]', 'Happiness:7.0', 'Stress: 16.348'), ('Room: [2, 0, 5]', 'Happiness:21.0', 'Stress: 18.118'), ('Room: [7, 9]', 'Happiness:4.0', 'Stress: 2.4890000000000008'), ('Room: [3, 4, 8]', 'Happiness:25.0', 'Stress: 19.857')]
+Total Happiness: 57.0
+[[(1, 0), (6, 0)], [(2, 1), (0, 1), (5, 1)], [(7, 2), (9, 2)], [(3, 3), (4, 3), (8, 3)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 0.14025
+[('Room: [3, 5, 0, 2, 6]', 'Happiness:500.0', 'Stress: 0.09999999999999999'), ('Room: [1, 7, 4]', 'Happiness:150.0', 'Stress: 0.03'), ('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [8]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 650.0
+[[(3, 0), (5, 0), (0, 0), (2, 0), (6, 0)], [(1, 1), (7, 1), (4, 1)], [(9, 2)], [(8, 3)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 12.0
+[('Room: [5, 3]', 'Happiness:5.251', 'Stress: 11.22'), ('Room: [2, 7]', 'Happiness:4.538', 'Stress: 10.48'), ('Room: [6]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [1, 0, 4]', 'Happiness:8.238', 'Stress: 9.896'), ('Room: [9, 8]', 'Happiness:5.106', 'Stress: 11.088')]
+Total Happiness: 23.133000000000003
+[[(5, 0), (3, 0)], [(2, 1), (7, 1)], [(6, 2)], [(1, 3), (0, 3), (4, 3)], [(9, 4), (8, 4)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 5.333333333333333
+[('Room: [7, 9]', 'Happiness:2.0', 'Stress: 0.9999999999999998'), ('Room: [0, 8, 1, 3]', 'Happiness:8.255000000000003', 'Stress: 3.289999999999999'), ('Room: [6, 4, 2, 5]', 'Happiness:8.893', 'Stress: 4.665')]
+Total Happiness: 19.148000000000003
+[[(7, 0), (9, 0)], [(0, 1), (8, 1), (1, 1), (3, 1)], [(6, 2), (4, 2), (2, 2), (5, 2)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 16.5
+[('Room: [6]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [0]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [8]', 'Happiness:0', 'Stress: 0'), ('Room: [1, 2, 3]', 'Happiness:232.73400000000004', 'Stress: 7.317'), ('Room: [4, 5, 7]', 'Happiness:273.42900000000003', 'Stress: 14.394'), ('Room: [9]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 506.16300000000007
+[[(6, 0)], [(0, 1)], [(8, 2)], [(1, 3), (2, 3), (3, 3)], [(4, 4), (5, 4), (7, 4)], [(9, 5)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 31.666666666666668
+[('Room: [2, 4, 8, 3]', 'Happiness:78.0', 'Stress: 31.5'), ('Room: [7, 1]', 'Happiness:14.999999999999996', 'Stress: 5.719999999999999'), ('Room: [5, 6, 0, 9]', 'Happiness:80.0', 'Stress: 31.000999999999998')]
+Total Happiness: 173.0
+[[(2, 0), (4, 0), (8, 0), (3, 0)], [(7, 1), (1, 1)], [(5, 2), (6, 2), (0, 2), (9, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 25.343
+[('Room: [3, 9, 0]', 'Happiness:44.278', 'Stress: 16.601999999999997'), ('Room: [4, 1, 7, 6]', 'Happiness:83.09', 'Stress: 25.009'), ('Room: [8, 2, 5]', 'Happiness:55.89399999999999', 'Stress: 13.971')]
+Total Happiness: 183.262
+[[(3, 0), (9, 0), (0, 0)], [(4, 1), (1, 1), (7, 1), (6, 1)], [(8, 2), (2, 2), (5, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.33
+[('Room: [1, 5, 7, 0, 2]', 'Happiness:332.0', 'Stress: 29.619999999999997'), ('Room: [9]', 'Happiness:0.0', 'Stress: -1.7763568394002505e-15'), ('Room: [3, 8, 4, 6]', 'Happiness:43.0', 'Stress: 26.662999999999997')]
+Total Happiness: 375.0
+[[(1, 0), (5, 0), (7, 0), (0, 0), (2, 0)], [(9, 1)], [(3, 2), (8, 2), (4, 2), (6, 2)]]
+Greedy:
+Num Rooms: 7
+Max Stress per room: 9.571428571428571
+[('Room: [8]', 'Happiness:0', 'Stress: 0'), ('Room: [0, 9]', 'Happiness:14.0', 'Stress: 9.0'), ('Room: [3]', 'Happiness:0', 'Stress: 0'), ('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [1, 5]', 'Happiness:21.0', 'Stress: 5.0'), ('Room: [7, 2]', 'Happiness:93.0', 'Stress: 7.0')]
+Total Happiness: 128.0
+[[(8, 0)], [(0, 1), (9, 1)], [(3, 2)], [(4, 3)], [(6, 4)], [(1, 5), (5, 5)], [(7, 6), (2, 6)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 26.666666666666668
+[('Room: [7, 6, 5]', 'Happiness:17.579', 'Stress: 17.981'), ('Room: [0, 8, 2, 1]', 'Happiness:38.808', 'Stress: 26.305'), ('Room: [3, 4, 9]', 'Happiness:24.778', 'Stress: 15.901000000000002')]
+Total Happiness: 81.16499999999999
+[[(7, 0), (6, 0), (5, 0)], [(0, 1), (8, 1), (2, 1), (1, 1)], [(3, 2), (4, 2), (9, 2)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 10.891166666666665
+[('Room: [8, 6]', 'Happiness:82.136', 'Stress: 5.385'), ('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [9, 4]', 'Happiness:77.482', 'Stress: 4.967'), ('Room: [2]', 'Happiness:0', 'Stress: 0'), ('Room: [5, 1]', 'Happiness:35.858', 'Stress: 7.597'), ('Room: [3, 7]', 'Happiness:57.264', 'Stress: 5.497')]
+Total Happiness: 252.74
+[[(8, 0), (6, 0)], [(0, 1)], [(9, 2), (4, 2)], [(2, 3)], [(5, 4), (1, 4)], [(3, 5), (7, 5)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 24.75
+[('Room: [3, 5]', 'Happiness:94.0', 'Stress: 20.0'), ('Room: [0, 4, 8]', 'Happiness:240.0', 'Stress: 21.0'), ('Room: [7, 6]', 'Happiness:70.0', 'Stress: 14.0'), ('Room: [2, 1, 9]', 'Happiness:231.0', 'Stress: 24.0')]
+Total Happiness: 635.0
+[[(3, 0), (5, 0)], [(0, 1), (4, 1), (8, 1)], [(7, 2), (6, 2)], [(2, 3), (1, 3), (9, 3)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 15.485
+[('Room: [4]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [5, 9]', 'Happiness:36.25', 'Stress: 12.13'), ('Room: [2, 3]', 'Happiness:69.42', 'Stress: 9.612'), ('Room: [7, 8, 6]', 'Happiness:87.74600000000001', 'Stress: 12.981'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [0]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 193.416
+[[(4, 0)], [(5, 1), (9, 1)], [(2, 2), (3, 2)], [(7, 3), (8, 3), (6, 3)], [(1, 4)], [(0, 5)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.333
+[('Room: [3, 5, 9]', 'Happiness:215.09900000000002', 'Stress: 15.509999999999998'), ('Room: [0, 4, 7]', 'Happiness:165.32399999999998', 'Stress: 30.127'), ('Room: [8, 2, 6, 1]', 'Happiness:410.385', 'Stress: 33.027')]
+Total Happiness: 790.808
+[[(3, 0), (5, 0), (9, 0)], [(0, 1), (4, 1), (7, 1)], [(8, 2), (2, 2), (6, 2), (1, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.333
+[('Room: [5, 1, 8, 3]', 'Happiness:353.697', 'Stress: 26.752000000000002'), ('Room: [6, 9, 0, 7]', 'Happiness:389.08600000000007', 'Stress: 33.331'), ('Room: [4, 2]', 'Happiness:92.34', 'Stress: 1.0219999999999985')]
+Total Happiness: 835.1230000000002
+[[(5, 0), (1, 0), (8, 0), (3, 0)], [(6, 1), (9, 1), (0, 1), (7, 1)], [(4, 2), (2, 2)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 24.75
+[('Room: [1, 4, 5]', 'Happiness:24.64', 'Stress: 24.64'), ('Room: [3, 2]', 'Happiness:7.9200000000000035', 'Stress: 7.9200000000000035'), ('Room: [0, 6, 9]', 'Happiness:24.380000000000003', 'Stress: 24.380000000000003'), ('Room: [8, 7]', 'Happiness:18.92', 'Stress: 18.92')]
+Total Happiness: 75.86000000000001
+[[(1, 0), (4, 0), (5, 0)], [(3, 1), (2, 1)], [(0, 2), (6, 2), (9, 2)], [(8, 3), (7, 3)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 10.6575
+[('Room: [3, 0, 4]', 'Happiness:31.0', 'Stress: 9.863'), ('Room: [6, 8]', 'Happiness:6.1', 'Stress: 3.6000000000000014'), ('Room: [2, 5, 9]', 'Happiness:19.722', 'Stress: 9.743'), ('Room: [7, 1]', 'Happiness:9.09', 'Stress: 3.061')]
+Total Happiness: 65.912
+[[(3, 0), (0, 0), (4, 0)], [(6, 1), (8, 1)], [(2, 2), (5, 2), (9, 2)], [(7, 3), (1, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.0
+[('Room: [0]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [4, 6, 2, 8]', 'Happiness:32.174', 'Stress: 32.407'), ('Room: [1, 3, 7, 5, 9]', 'Happiness:47.315', 'Stress: 32.929')]
+Total Happiness: 79.489
+[[(0, 0)], [(4, 1), (6, 1), (2, 1), (8, 1)], [(1, 2), (3, 2), (7, 2), (5, 2), (9, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 30.0
+[('Room: [2, 4, 3, 8]', 'Happiness:45.659000000000006', 'Stress: 27.072000000000003'), ('Room: [0, 6, 5, 9]', 'Happiness:27.395999999999997', 'Stress: 26.730999999999998'), ('Room: [1, 7]', 'Happiness:6.111000000000001', 'Stress: 9.648')]
+Total Happiness: 79.16600000000001
+[[(2, 0), (4, 0), (3, 0), (8, 0)], [(0, 1), (6, 1), (5, 1), (9, 1)], [(1, 2), (7, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 3.0
+[('Room: [4, 9, 3, 2]', 'Happiness:111.0', 'Stress: 2.5'), ('Room: [6, 1, 5]', 'Happiness:58.1', 'Stress: 1.7'), ('Room: [0, 7, 8]', 'Happiness:36.0', 'Stress: 2.1')]
+Total Happiness: 205.1
+[[(4, 0), (9, 0), (3, 0), (2, 0)], [(6, 1), (1, 1), (5, 1)], [(0, 2), (7, 2), (8, 2)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 20.75
+[('Room: [2]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [9, 3, 0]', 'Happiness:30.0', 'Stress: 18.613'), ('Room: [1, 6, 5]', 'Happiness:23.0', 'Stress: 14.838'), ('Room: [8, 7, 4]', 'Happiness:20.0', 'Stress: 20.226')]
+Total Happiness: 73.0
+[[(2, 0)], [(9, 1), (3, 1), (0, 1)], [(1, 2), (6, 2), (5, 2)], [(8, 3), (7, 3), (4, 3)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 15.906333333333334
+[('Room: [5, 8]', 'Happiness:24.841', 'Stress: 2.247'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [1, 0]', 'Happiness:82.755', 'Stress: 1.386'), ('Room: [2]', 'Happiness:0', 'Stress: 0'), ('Room: [7, 4]', 'Happiness:53.223', 'Stress: 2.615'), ('Room: [3, 9]', 'Happiness:70.22', 'Stress: 5.891')]
+Total Happiness: 231.03900000000002
+[[(5, 0), (8, 0)], [(6, 1)], [(1, 2), (0, 2)], [(2, 3)], [(7, 4), (4, 4)], [(3, 5), (9, 5)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 29.965999999999998
+[('Room: [2, 3, 4, 9]', 'Happiness:326.534', 'Stress: 22.948'), ('Room: [1, 5]', 'Happiness:57.548', 'Stress: 3.4080000000000013'), ('Room: [0, 8, 7, 6]', 'Happiness:344.75800000000004', 'Stress: 21.037999999999997')]
+Total Happiness: 728.84
+[[(2, 0), (3, 0), (4, 0), (9, 0)], [(1, 1), (5, 1)], [(0, 2), (8, 2), (7, 2), (6, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.0
+[('Room: [4, 0, 3]', 'Happiness:124.0', 'Stress: 23.37'), ('Room: [9, 7, 5, 1]', 'Happiness:274.0', 'Stress: 25.700000000000003'), ('Room: [6, 2, 8]', 'Happiness:120.0', 'Stress: 20.529999999999998')]
+Total Happiness: 518.0
+[[(4, 0), (0, 0), (3, 0)], [(9, 1), (7, 1), (5, 1), (1, 1)], [(6, 2), (2, 2), (8, 2)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 3.75
+[('Room: [6, 8, 1]', 'Happiness:12.850000000000001', 'Stress: 3.55'), ('Room: [2, 4]', 'Happiness:5.21', 'Stress: 1.5'), ('Room: [5, 0, 7]', 'Happiness:13.21', 'Stress: 2.36'), ('Room: [3, 9]', 'Happiness:5.13', 'Stress: 2.5')]
+Total Happiness: 36.400000000000006
+[[(6, 0), (8, 0), (1, 0)], [(2, 1), (4, 1)], [(5, 2), (0, 2), (7, 2)], [(3, 3), (9, 3)]]
+Greedy:
+Num Rooms: 9
+Max Stress per room: 5.528111111111111
+[('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [0, 4]', 'Happiness:62.407', 'Stress: 2.392'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [2]', 'Happiness:0', 'Stress: 0'), ('Room: [8]', 'Happiness:0', 'Stress: 0'), ('Room: [3]', 'Happiness:0', 'Stress: 0'), ('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [9]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 62.407
+[[(7, 0)], [(0, 1), (4, 1)], [(6, 2)], [(2, 3)], [(8, 4)], [(3, 5)], [(5, 6)], [(1, 7)], [(9, 8)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.0
+[('Room: [9, 2, 6]', 'Happiness:94.691', 'Stress: 23.034000000000002'), ('Room: [1, 8, 7, 0]', 'Happiness:456.25700000000006', 'Stress: 32.001000000000005'), ('Room: [5, 4, 3]', 'Happiness:135.901', 'Stress: 17.638')]
+Total Happiness: 686.8490000000002
+[[(9, 0), (2, 0), (6, 0)], [(1, 1), (8, 1), (7, 1), (0, 1)], [(5, 2), (4, 2), (3, 2)]]
+Greedy:
+Num Rooms: 8
+Max Stress per room: 10.3315
+[('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [3, 0]', 'Happiness:1.0', 'Stress: 7.67'), ('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [1, 2]', 'Happiness:89.0', 'Stress: 1.4'), ('Room: [8]', 'Happiness:0', 'Stress: 0'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [9]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 90.0
+[[(5, 0)], [(7, 1)], [(3, 2), (0, 2)], [(4, 3)], [(1, 4), (2, 4)], [(8, 5)], [(6, 6)], [(9, 7)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 24.75
+[('Room: [5, 6]', 'Happiness:19.89', 'Stress: 18.29'), ('Room: [8, 7, 0]', 'Happiness:179.65', 'Stress: 14.660000000000002'), ('Room: [9, 3]', 'Happiness:65.4', 'Stress: 9.56'), ('Room: [2, 1, 4]', 'Happiness:125.69', 'Stress: 23.54')]
+Total Happiness: 390.63000000000005
+[[(5, 0), (6, 0)], [(8, 1), (7, 1), (0, 1)], [(9, 2), (3, 2)], [(2, 3), (1, 3), (4, 3)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 17.1462
+[('Room: [3, 8]', 'Happiness:58.583', 'Stress: 11.138'), ('Room: [2, 5]', 'Happiness:80.32', 'Stress: 16.827'), ('Room: [9, 6]', 'Happiness:86.787', 'Stress: 12.349'), ('Room: [0, 4]', 'Happiness:98.821', 'Stress: 10.366'), ('Room: [7, 1]', 'Happiness:57.951', 'Stress: 11.041')]
+Total Happiness: 382.462
+[[(3, 0), (8, 0)], [(2, 1), (5, 1)], [(9, 2), (6, 2)], [(0, 3), (4, 3)], [(7, 4), (1, 4)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 32.300000000000004
+[('Room: [0, 2, 4]', 'Happiness:33.800000000000004', 'Stress: 7.899999999999999'), ('Room: [8, 6, 9, 7]', 'Happiness:60.0', 'Stress: 16.0'), ('Room: [5, 1, 3]', 'Happiness:32.2', 'Stress: 8.3')]
+Total Happiness: 126.00000000000001
+[[(0, 0), (2, 0), (4, 0)], [(8, 1), (6, 1), (9, 1), (7, 1)], [(5, 2), (1, 2), (3, 2)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 12.030666666666667
+[('Room: [0]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [4, 9]', 'Happiness:5.578', 'Stress: 7.49'), ('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [6, 2]', 'Happiness:16.887', 'Stress: 4.223'), ('Room: [7, 1]', 'Happiness:48.818', 'Stress: 10.371'), ('Room: [3, 8]', 'Happiness:65.214', 'Stress: 0.982')]
+Total Happiness: 136.497
+[[(0, 0)], [(4, 1), (9, 1)], [(5, 2)], [(6, 3), (2, 3)], [(7, 4), (1, 4)], [(3, 5), (8, 5)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 49.9995
+[('Room: [3, 1, 0, 4, 2]', 'Happiness:510.0', 'Stress: 19.0'), ('Room: [6, 7, 8, 5, 9]', 'Happiness:508.0', 'Stress: 21.0')]
+Total Happiness: 1018.0
+[[(3, 0), (1, 0), (0, 0), (4, 0), (2, 0)], [(6, 1), (7, 1), (8, 1), (5, 1), (9, 1)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 15.0
+[('Room: [0, 7, 4]', 'Happiness:18.086', 'Stress: 14.795000000000002'), ('Room: [5, 3]', 'Happiness:15.23', 'Stress: 7.784'), ('Room: [9, 8, 6]', 'Happiness:18.982', 'Stress: 9.661999999999999'), ('Room: [1, 2]', 'Happiness:13.947', 'Stress: 7.135')]
+Total Happiness: 66.245
+[[(0, 0), (7, 0), (4, 0)], [(5, 1), (3, 1)], [(9, 2), (8, 2), (6, 2)], [(1, 3), (2, 3)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 3.2
+[('Room: [9, 2, 7]', 'Happiness:23.0', 'Stress: 2.2'), ('Room: [5]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [4, 8]', 'Happiness:8.0', 'Stress: 2.0'), ('Room: [1, 0]', 'Happiness:20.0', 'Stress: 3.2'), ('Room: [6, 3]', 'Happiness:7.0', 'Stress: 2.0')]
+Total Happiness: 58.0
+[[(9, 0), (2, 0), (7, 0)], [(5, 1)], [(4, 2), (8, 2)], [(1, 3), (0, 3)], [(6, 4), (3, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 18.812
+[('Room: [6, 2]', 'Happiness:7.788', 'Stress: 5.706'), ('Room: [8, 0, 5]', 'Happiness:24.261', 'Stress: 14.122'), ('Room: [9, 3]', 'Happiness:9.78', 'Stress: 7.689'), ('Room: [7, 1, 4]', 'Happiness:23.881', 'Stress: 17.701999999999998')]
+Total Happiness: 65.71000000000001
+[[(6, 0), (2, 0)], [(8, 1), (0, 1), (5, 1)], [(9, 2), (3, 2)], [(7, 3), (1, 3), (4, 3)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 22.5
+[('Room: [0, 9, 2]', 'Happiness:151.017', 'Stress: 21.865'), ('Room: [7, 3, 8]', 'Happiness:278.05899999999997', 'Stress: 8.385'), ('Room: [1, 6, 5]', 'Happiness:108.61', 'Stress: 22.296'), ('Room: [4]', 'Happiness:0.0', 'Stress: 0.0')]
+Total Happiness: 537.6859999999999
+[[(0, 0), (9, 0), (2, 0)], [(7, 1), (3, 1), (8, 1)], [(1, 2), (6, 2), (5, 2)], [(4, 3)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 19.4
+[('Room: [9]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [7, 8, 3]', 'Happiness:70.0', 'Stress: 18.0'), ('Room: [5, 4]', 'Happiness:45.0', 'Stress: 10.0'), ('Room: [6, 2]', 'Happiness:50.0', 'Stress: 13.0'), ('Room: [1, 0]', 'Happiness:23.0', 'Stress: 8.0')]
+Total Happiness: 188.0
+[[(9, 0)], [(7, 1), (8, 1), (3, 1)], [(5, 2), (4, 2)], [(6, 3), (2, 3)], [(1, 4), (0, 4)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 19.9998
+[('Room: [0, 9]', 'Happiness:8.001', 'Stress: 8.017'), ('Room: [7, 5]', 'Happiness:7.351', 'Stress: 7.969'), ('Room: [6, 8]', 'Happiness:64.021', 'Stress: 7.022'), ('Room: [4, 3]', 'Happiness:63.061', 'Stress: 7.544'), ('Room: [2, 1]', 'Happiness:68.443', 'Stress: 7.053')]
+Total Happiness: 210.877
+[[(0, 0), (9, 0)], [(7, 1), (5, 1)], [(6, 2), (8, 2)], [(4, 3), (3, 3)], [(2, 4), (1, 4)]]
+Greedy:
+Num Rooms: 8
+Max Stress per room: 1.25
+[('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [8]', 'Happiness:0', 'Stress: 0'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [3]', 'Happiness:0', 'Stress: 0'), ('Room: [4]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [2, 1]', 'Happiness:12.43', 'Stress: 0.04'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [9, 5]', 'Happiness:3.088', 'Stress: 0.021')]
+Total Happiness: 15.518
+[[(0, 0)], [(8, 1)], [(7, 2)], [(3, 3)], [(4, 4)], [(2, 5), (1, 5)], [(6, 6)], [(9, 7), (5, 7)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 49.5
+[('Room: [0, 7, 4, 2, 1]', 'Happiness:684.7660000000001', 'Stress: 29.91'), ('Room: [5, 6, 3, 9, 8]', 'Happiness:402.16099999999994', 'Stress: 48.757000000000005')]
+Total Happiness: 1086.9270000000001
+[[(0, 0), (7, 0), (4, 0), (2, 0), (1, 0)], [(5, 1), (6, 1), (3, 1), (9, 1), (8, 1)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 3.6666666666666665
+[('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [3]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [2, 6, 8]', 'Happiness:6.0', 'Stress: 3.5010000000000003'), ('Room: [9, 4]', 'Happiness:2.0', 'Stress: 2.333'), ('Room: [1, 5]', 'Happiness:2.0', 'Stress: 2.333')]
+Total Happiness: 10.0
+[[(0, 0)], [(3, 1)], [(7, 2)], [(2, 3), (6, 3), (8, 3)], [(9, 4), (4, 4)], [(1, 5), (5, 5)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 30.0
+[('Room: [7, 5, 6]', 'Happiness:26.168', 'Stress: 27.191'), ('Room: [4, 1, 2]', 'Happiness:21.874', 'Stress: 17.031000000000002'), ('Room: [0, 3, 8, 9]', 'Happiness:51.945', 'Stress: 19.422')]
+Total Happiness: 99.987
+[[(7, 0), (5, 0), (6, 0)], [(4, 1), (1, 1), (2, 1)], [(0, 2), (3, 2), (8, 2), (9, 2)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 8.026
+[('Room: [2, 6, 5]', 'Happiness:238.62', 'Stress: 5.648'), ('Room: [7, 0]', 'Happiness:59.783', 'Stress: 1.478'), ('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [9, 3]', 'Happiness:76.398', 'Stress: 3.669'), ('Room: [8]', 'Happiness:0', 'Stress: 0'), ('Room: [1]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 374.80100000000004
+[[(2, 0), (6, 0), (5, 0)], [(7, 1), (0, 1)], [(4, 2)], [(9, 3), (3, 3)], [(8, 4)], [(1, 5)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 20.4285
+[('Room: [1, 2, 4]', 'Happiness:177.782', 'Stress: 15.73'), ('Room: [8, 9, 7]', 'Happiness:157.05799999999996', 'Stress: 14.114'), ('Room: [0, 5]', 'Happiness:92.395', 'Stress: 16.859'), ('Room: [3, 6]', 'Happiness:77.16', 'Stress: 9.907')]
+Total Happiness: 504.395
+[[(1, 0), (2, 0), (4, 0)], [(8, 1), (9, 1), (7, 1)], [(0, 2), (5, 2)], [(3, 3), (6, 3)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 18.75
+[('Room: [1, 2, 3]', 'Happiness:186.668', 'Stress: 16.155'), ('Room: [5, 4]', 'Happiness:63.74000000000001', 'Stress: 9.391'), ('Room: [6, 0, 9]', 'Happiness:86.30199999999999', 'Stress: 14.475999999999999'), ('Room: [7, 8]', 'Happiness:52.12', 'Stress: 9.852')]
+Total Happiness: 388.83000000000004
+[[(1, 0), (2, 0), (3, 0)], [(5, 1), (4, 1)], [(6, 2), (0, 2), (9, 2)], [(7, 3), (8, 3)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 15.0
+[('Room: [4, 0, 1, 6, 3]', 'Happiness:804.0', 'Stress: 14.0'), ('Room: [9]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [5]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [7, 8, 2]', 'Happiness:239.0', 'Stress: 14.0')]
+Total Happiness: 1043.0
+[[(4, 0), (0, 0), (1, 0), (6, 0), (3, 0)], [(9, 1)], [(5, 2)], [(7, 3), (8, 3), (2, 3)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 22.75
+[('Room: [4, 2, 1]', 'Happiness:12.751999999999999', 'Stress: 22.442999999999998'), ('Room: [9, 0]', 'Happiness:3.8920000000000012', 'Stress: 8.245999999999997'), ('Room: [3, 5]', 'Happiness:21.49', 'Stress: 9.673'), ('Room: [7, 6, 8]', 'Happiness:26.227', 'Stress: 20.093000000000004')]
+Total Happiness: 64.361
+[[(4, 0), (2, 0), (1, 0)], [(9, 1), (0, 1)], [(3, 2), (5, 2)], [(7, 3), (6, 3), (8, 3)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 16.5
+[('Room: [3, 7]', 'Happiness:16.839', 'Stress: 6.311'), ('Room: [4, 1]', 'Happiness:17.443', 'Stress: 6.755'), ('Room: [8, 9]', 'Happiness:14.584', 'Stress: 7.091'), ('Room: [0, 2, 5, 6]', 'Happiness:99.46700000000001', 'Stress: 14.632')]
+Total Happiness: 148.33300000000003
+[[(3, 0), (7, 0)], [(4, 1), (1, 1)], [(8, 2), (9, 2)], [(0, 3), (2, 3), (5, 3), (6, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 7.666666666666667
+[('Room: [9, 1, 4]', 'Happiness:211.576', 'Stress: 3.9919999999999995'), ('Room: [8, 2, 5, 3, 7]', 'Happiness:546.1220000000001', 'Stress: 6.986'), ('Room: [6, 0]', 'Happiness:68.86200000000002', 'Stress: 0.9979999999999998')]
+Total Happiness: 826.5600000000002
+[[(9, 0), (1, 0), (4, 0)], [(8, 1), (2, 1), (5, 1), (3, 1), (7, 1)], [(6, 2), (0, 2)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 7.5
+[('Room: [5, 1, 8, 6]', 'Happiness:93.363', 'Stress: 2.704'), ('Room: [9, 7, 0, 4, 2, 3]', 'Happiness:209.37199999999999', 'Stress: 7.157')]
+Total Happiness: 302.735
+[[(5, 0), (1, 0), (8, 0), (6, 0)], [(9, 1), (7, 1), (0, 1), (4, 1), (2, 1), (3, 1)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 22.13
+[('Room: [5, 6, 4]', 'Happiness:168.06900000000002', 'Stress: 13.707'), ('Room: [0, 7, 2]', 'Happiness:56.823', 'Stress: 17.124'), ('Room: [8, 3, 9, 1]', 'Happiness:312.592', 'Stress: 10.316')]
+Total Happiness: 537.484
+[[(5, 0), (6, 0), (4, 0)], [(0, 1), (7, 1), (2, 1)], [(8, 2), (3, 2), (9, 2), (1, 2)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 18.0
+[('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [4, 0]', 'Happiness:10.0', 'Stress: 10.0'), ('Room: [7, 6, 8]', 'Happiness:150.0', 'Stress: 6.0'), ('Room: [3, 1]', 'Happiness:50.0', 'Stress: 12.0'), ('Room: [2, 9]', 'Happiness:35.0', 'Stress: 4.0')]
+Total Happiness: 245.0
+[[(5, 0)], [(4, 1), (0, 1)], [(7, 2), (6, 2), (8, 2)], [(3, 3), (1, 3)], [(2, 4), (9, 4)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 47.5
+[('Room: [7, 9, 0, 2, 8]', 'Happiness:40.0', 'Stress: 35.0'), ('Room: [6, 4, 1, 3, 5]', 'Happiness:120.0', 'Stress: 27.0')]
+Total Happiness: 160.0
+[[(7, 0), (9, 0), (0, 0), (2, 0), (8, 0)], [(6, 1), (4, 1), (1, 1), (3, 1), (5, 1)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 24.936000000000003
+[('Room: [4, 8]', 'Happiness:69.505', 'Stress: 3.133000000000001'), ('Room: [7, 3, 6, 5]', 'Happiness:346.9', 'Stress: 24.433'), ('Room: [2, 9, 0, 1]', 'Happiness:321.764', 'Stress: 20.729')]
+Total Happiness: 738.169
+[[(4, 0), (8, 0)], [(7, 1), (3, 1), (6, 1), (5, 1)], [(2, 2), (9, 2), (0, 2), (1, 2)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 17.5
+[('Room: [6, 4, 7]', 'Happiness:30.0', 'Stress: 14.598'), ('Room: [3, 0, 2]', 'Happiness:30.0', 'Stress: 13.158'), ('Room: [8, 9]', 'Happiness:7.0', 'Stress: 7.226'), ('Room: [1, 5]', 'Happiness:10.0', 'Stress: 7.566')]
+Total Happiness: 77.0
+[[(6, 0), (4, 0), (7, 0)], [(3, 1), (0, 1), (2, 1)], [(8, 2), (9, 2)], [(1, 3), (5, 3)]]
+Greedy:
+Num Rooms: 9
+Max Stress per room: 5.555555555555555
+[('Room: [8, 7]', 'Happiness:20.161', 'Stress: 4.48'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [2]', 'Happiness:0', 'Stress: 0'), ('Room: [3]', 'Happiness:0', 'Stress: 0'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [9]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [4]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 20.161
+[[(8, 0), (7, 0)], [(1, 1)], [(0, 2)], [(2, 3)], [(3, 4)], [(6, 5)], [(5, 6)], [(9, 7)], [(4, 8)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 16.0
+[('Room: [9, 1]', 'Happiness:9.0', 'Stress: 8.435'), ('Room: [6, 7]', 'Happiness:8.0', 'Stress: 7.193'), ('Room: [2, 0]', 'Happiness:9.0', 'Stress: 8.182'), ('Room: [5]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [8, 3, 4]', 'Happiness:26.0', 'Stress: 13.928')]
+Total Happiness: 52.0
+[[(9, 0), (1, 0)], [(6, 1), (7, 1)], [(2, 2), (0, 2)], [(5, 3)], [(8, 4), (3, 4), (4, 4)]]
+Greedy:
+Num Rooms: 8
+Max Stress per room: 11.25
+[('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [3, 4]', 'Happiness:32.79', 'Stress: 4.819'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [2, 0]', 'Happiness:65.374', 'Stress: 3.78'), ('Room: [8]', 'Happiness:0', 'Stress: 0'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [9]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 98.16399999999999
+[[(6, 0)], [(5, 1)], [(3, 2), (4, 2)], [(7, 3)], [(2, 4), (0, 4)], [(8, 5)], [(1, 6)], [(9, 7)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 16.0
+[('Room: [2, 3]', 'Happiness:9.765', 'Stress: 8.931'), ('Room: [8, 0]', 'Happiness:9.154', 'Stress: 8.75'), ('Room: [9, 4]', 'Happiness:9.531', 'Stress: 8.172'), ('Room: [1, 5]', 'Happiness:10.495', 'Stress: 8.647'), ('Room: [7, 6]', 'Happiness:9.563', 'Stress: 8.044')]
+Total Happiness: 48.508
+[[(2, 0), (3, 0)], [(8, 1), (0, 1)], [(9, 2), (4, 2)], [(1, 3), (5, 3)], [(7, 4), (6, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 20.0
+[('Room: [2, 7, 3]', 'Happiness:136.0', 'Stress: 19.0'), ('Room: [8, 0]', 'Happiness:45.0', 'Stress: 1.0'), ('Room: [6, 4]', 'Happiness:14.0', 'Stress: 7.0'), ('Room: [1, 9, 5]', 'Happiness:182.0', 'Stress: 9.0')]
+Total Happiness: 377.0
+[[(2, 0), (7, 0), (3, 0)], [(8, 1), (0, 1)], [(6, 2), (4, 2)], [(1, 3), (9, 3), (5, 3)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 3.2088
+[('Room: [4, 3]', 'Happiness:2.966', 'Stress: 3.188'), ('Room: [7, 6]', 'Happiness:2.662', 'Stress: 1.441'), ('Room: [0, 2]', 'Happiness:3.417', 'Stress: 1.007'), ('Room: [8, 5]', 'Happiness:2.468', 'Stress: 1.394'), ('Room: [1, 9]', 'Happiness:2.848', 'Stress: 1.322')]
+Total Happiness: 14.361
+[[(4, 0), (3, 0)], [(7, 1), (6, 1)], [(0, 2), (2, 2)], [(8, 3), (5, 3)], [(1, 4), (9, 4)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 11.639000000000001
+[('Room: [3, 8]', 'Happiness:8.0', 'Stress: 2.125'), ('Room: [9, 5, 2, 6]', 'Happiness:51.0', 'Stress: 9.672'), ('Room: [4, 7, 1, 0]', 'Happiness:49.0', 'Stress: 11.581')]
+Total Happiness: 108.0
+[[(3, 0), (8, 0)], [(9, 1), (5, 1), (2, 1), (6, 1)], [(4, 2), (7, 2), (1, 2), (0, 2)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 16.3775
+[('Room: [4]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [8, 0]', 'Happiness:51.714', 'Stress: 5.573'), ('Room: [7, 2]', 'Happiness:95.206', 'Stress: 6.263'), ('Room: [5, 6]', 'Happiness:93.66', 'Stress: 1.69'), ('Room: [1]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [3, 9]', 'Happiness:66.025', 'Stress: 6.983')]
+Total Happiness: 306.605
+[[(4, 0)], [(8, 1), (0, 1)], [(7, 2), (2, 2)], [(5, 3), (6, 3)], [(1, 4)], [(3, 5), (9, 5)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 16.0
+[('Room: [5]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [0, 2]', 'Happiness:9.0', 'Stress: 8.182'), ('Room: [8, 4, 3]', 'Happiness:26.0', 'Stress: 13.928'), ('Room: [9, 1]', 'Happiness:9.0', 'Stress: 8.435'), ('Room: [7, 6]', 'Happiness:8.0', 'Stress: 7.193')]
+Total Happiness: 52.0
+[[(5, 0)], [(0, 1), (2, 1)], [(8, 2), (4, 2), (3, 2)], [(9, 3), (1, 3)], [(7, 4), (6, 4)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 1.0
+[('Room: [4, 9]', 'Happiness:1.0', 'Stress: 0.477'), ('Room: [2, 7]', 'Happiness:1.0', 'Stress: 0.424'), ('Room: [6, 3]', 'Happiness:1.0', 'Stress: 0.682'), ('Room: [0, 1]', 'Happiness:17.362', 'Stress: 1.0'), ('Room: [8, 5]', 'Happiness:1.0', 'Stress: 0.496')]
+Total Happiness: 21.362
+[[(4, 0), (9, 0)], [(2, 1), (7, 1)], [(6, 2), (3, 2)], [(0, 3), (1, 3)], [(8, 4), (5, 4)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 25.333333333333332
+[('Room: [3, 6, 9, 7]', 'Happiness:39.900000000000006', 'Stress: 21.5'), ('Room: [2, 8, 1]', 'Happiness:23.299999999999997', 'Stress: 24.5'), ('Room: [4, 5, 0]', 'Happiness:19.800000000000004', 'Stress: 11.3')]
+Total Happiness: 83.0
+[[(3, 0), (6, 0), (9, 0), (7, 0)], [(2, 1), (8, 1), (1, 1)], [(4, 2), (5, 2), (0, 2)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 2.046
+[('Room: [7, 6]', 'Happiness:89.24', 'Stress: 0.7279999999999999'), ('Room: [5, 4, 3]', 'Happiness:244.09000000000003', 'Stress: 1.901'), ('Room: [9, 8]', 'Happiness:79.61', 'Stress: 0.487'), ('Room: [2, 1, 0]', 'Happiness:235.94', 'Stress: 2.021')]
+Total Happiness: 648.8800000000001
+[[(7, 0), (6, 0)], [(5, 1), (4, 1), (3, 1)], [(9, 2), (8, 2)], [(2, 3), (1, 3), (0, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 16.666666666666668
+[('Room: [9]', 'Happiness:1.4210854715202004e-14', 'Stress: 2.220446049250313e-16'), ('Room: [8, 0, 4, 7]', 'Happiness:416.97', 'Stress: 14.130000000000003'), ('Room: [1, 2, 3, 6, 5]', 'Happiness:648.08', 'Stress: 16.310000000000002')]
+Total Happiness: 1065.0500000000002
+[[(9, 0)], [(8, 1), (0, 1), (4, 1), (7, 1)], [(1, 2), (2, 2), (3, 2), (6, 2), (5, 2)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 7.641
+[('Room: [1, 9]', 'Happiness:4.862', 'Stress: 5.9'), ('Room: [5, 6, 2]', 'Happiness:25.320999999999998', 'Stress: 6.815'), ('Room: [0, 3, 8]', 'Happiness:21.327', 'Stress: 5.779'), ('Room: [4, 7]', 'Happiness:9.281', 'Stress: 0.281')]
+Total Happiness: 60.791000000000004
+[[(1, 0), (9, 0)], [(5, 1), (6, 1), (2, 1)], [(0, 2), (3, 2), (8, 2)], [(4, 3), (7, 3)]]
+Greedy:
+Num Rooms: 1
+Max Stress per room: 96.129
+[('Room: [3, 7, 8, 5, 1, 6, 2, 0, 4, 9]', 'Happiness:1149.1190000000004', 'Stress: 94.90100000000004')]
+Total Happiness: 1149.1190000000004
+[[(3, 0), (7, 0), (8, 0), (5, 0), (1, 0), (6, 0), (2, 0), (0, 0), (4, 0), (9, 0)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 32.0
+[('Room: [2, 8, 1]', 'Happiness:7.0', 'Stress: 31.0'), ('Room: [7, 4, 3, 5, 6, 9]', 'Happiness:21.0', 'Stress: 27.0'), ('Room: [0]', 'Happiness:0.0', 'Stress: 0.0')]
+Total Happiness: 28.0
+[[(2, 0), (8, 0), (1, 0)], [(7, 1), (4, 1), (3, 1), (5, 1), (6, 1), (9, 1)], [(0, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 27.0
+[('Room: [8, 6, 1, 7]', 'Happiness:338.032', 'Stress: 23.418999999999997'), ('Room: [5, 3, 0, 4]', 'Happiness:336.81100000000004', 'Stress: 23.356'), ('Room: [2, 9]', 'Happiness:35.30500000000001', 'Stress: 7.4360000000000035')]
+Total Happiness: 710.1480000000001
+[[(8, 0), (6, 0), (1, 0), (7, 0)], [(5, 1), (3, 1), (0, 1), (4, 1)], [(2, 2), (9, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 7.0
+[('Room: [9, 3, 7, 5]', 'Happiness:24.0', 'Stress: 7.0'), ('Room: [0, 6, 1, 8]', 'Happiness:29.0', 'Stress: 4.0'), ('Room: [4, 2]', 'Happiness:5.0', 'Stress: 2.0')]
+Total Happiness: 58.0
+[[(9, 0), (3, 0), (7, 0), (5, 0)], [(0, 1), (6, 1), (1, 1), (8, 1)], [(4, 2), (2, 2)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 14.5
+[('Room: [0, 9]', 'Happiness:96.778', 'Stress: 6.9'), ('Room: [8, 7, 5]', 'Happiness:45.29', 'Stress: 3.0'), ('Room: [2, 6]', 'Happiness:5.359', 'Stress: 8.737'), ('Room: [1, 3, 4]', 'Happiness:50.221000000000004', 'Stress: 7.699999999999999')]
+Total Happiness: 197.64800000000002
+[[(0, 0), (9, 0)], [(8, 1), (7, 1), (5, 1)], [(2, 2), (6, 2)], [(1, 3), (3, 3), (4, 3)]]
+Greedy:
+Num Rooms: 10
+Max Stress per room: 0.6
+[('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [2]', 'Happiness:0', 'Stress: 0'), ('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [3]', 'Happiness:0', 'Stress: 0'), ('Room: [8]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 0
+[[(1, 0)], [(6, 1)], [(2, 2)], [(5, 3)], [(4, 4)], [(0, 5)], [(9, 6)], [(7, 7)], [(3, 8)], [(8, 9)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 11.0
+[('Room: [4, 5]', 'Happiness:14.0', 'Stress: 5.5'), ('Room: [8, 3]', 'Happiness:16.0', 'Stress: 8.0'), ('Room: [7, 9]', 'Happiness:16.0', 'Stress: 10.0'), ('Room: [1, 0]', 'Happiness:16.0', 'Stress: 5.5'), ('Room: [2, 6]', 'Happiness:16.0', 'Stress: 8.0')]
+Total Happiness: 78.0
+[[(4, 0), (5, 0)], [(8, 1), (3, 1)], [(7, 2), (9, 2)], [(1, 3), (0, 3)], [(2, 4), (6, 4)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 8.7908
+[('Room: [4, 1]', 'Happiness:27.969', 'Stress: 3.648'), ('Room: [3, 9, 2]', 'Happiness:60.283', 'Stress: 1.201'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [7, 5]', 'Happiness:33.644', 'Stress: 1.178'), ('Room: [0, 8]', 'Happiness:36.882', 'Stress: 0.972')]
+Total Happiness: 158.77800000000002
+[[(4, 0), (1, 0)], [(3, 1), (9, 1), (2, 1)], [(6, 2)], [(7, 3), (5, 3)], [(0, 4), (8, 4)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 6.0
+[('Room: [7, 6, 3, 1]', 'Happiness:12.0', 'Stress: 6.0'), ('Room: [0, 8, 9]', 'Happiness:9.0', 'Stress: 3.0'), ('Room: [5, 4, 2]', 'Happiness:6.0', 'Stress: 3.0')]
+Total Happiness: 27.0
+[[(7, 0), (6, 0), (3, 0), (1, 0)], [(0, 1), (8, 1), (9, 1)], [(5, 2), (4, 2), (2, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 31.666666666666668
+[('Room: [3, 5, 8, 4]', 'Happiness:43.0', 'Stress: 30.933'), ('Room: [7, 2, 6]', 'Happiness:20.0', 'Stress: 22.881999999999998'), ('Room: [0, 1, 9]', 'Happiness:24.0', 'Stress: 16.937')]
+Total Happiness: 87.0
+[[(3, 0), (5, 0), (8, 0), (4, 0)], [(7, 1), (2, 1), (6, 1)], [(0, 2), (1, 2), (9, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 28.45
+[('Room: [7, 5, 2, 1]', 'Happiness:16.0', 'Stress: 19.63'), ('Room: [4]', 'Happiness:0.0', 'Stress: 1.7763568394002505e-15'), ('Room: [0, 3, 9, 8, 6]', 'Happiness:66.0', 'Stress: 24.109999999999996')]
+Total Happiness: 82.0
+[[(7, 0), (5, 0), (2, 0), (1, 0)], [(4, 1)], [(0, 2), (3, 2), (9, 2), (8, 2), (6, 2)]]
+Greedy:
+Num Rooms: 1
+Max Stress per room: 96.129
+[('Room: [5, 1, 2, 8, 4, 6, 7, 9, 0, 3]', 'Happiness:1149.1190000000004', 'Stress: 94.90100000000001')]
+Total Happiness: 1149.1190000000004
+[[(5, 0), (1, 0), (2, 0), (8, 0), (4, 0), (6, 0), (7, 0), (9, 0), (0, 0), (3, 0)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 23.333333333333332
+[('Room: [5, 4, 1]', 'Happiness:212.0', 'Stress: 19.1'), ('Room: [8, 0, 6]', 'Happiness:217.0', 'Stress: 8.8'), ('Room: [2, 9, 7, 3]', 'Happiness:417.0', 'Stress: 21.3')]
+Total Happiness: 846.0
+[[(5, 0), (4, 0), (1, 0)], [(8, 1), (0, 1), (6, 1)], [(2, 2), (9, 2), (7, 2), (3, 2)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 19.13875
+[('Room: [5, 4]', 'Happiness:10.0', 'Stress: 10.73'), ('Room: [6, 2, 0]', 'Happiness:32.769999999999996', 'Stress: 10.55'), ('Room: [3, 9, 1]', 'Happiness:39.391', 'Stress: 18.125'), ('Room: [8, 7]', 'Happiness:27.9', 'Stress: 11.0')]
+Total Happiness: 110.061
+[[(5, 0), (4, 0)], [(6, 1), (2, 1), (0, 1)], [(3, 2), (9, 2), (1, 2)], [(8, 3), (7, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 30.91933333333333
+[('Room: [6, 0, 5, 4]', 'Happiness:287.856', 'Stress: 30.828000000000003'), ('Room: [1, 7]', 'Happiness:46.452', 'Stress: 4.738999999999999'), ('Room: [3, 2, 9, 8]', 'Happiness:289.529', 'Stress: 29.911')]
+Total Happiness: 623.837
+[[(6, 0), (0, 0), (5, 0), (4, 0)], [(1, 1), (7, 1)], [(3, 2), (2, 2), (9, 2), (8, 2)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 13.775
+[('Room: [9, 6, 3]', 'Happiness:61.196', 'Stress: 8.3'), ('Room: [5, 8]', 'Happiness:33.0', 'Stress: 4.728'), ('Room: [2, 4]', 'Happiness:27.0', 'Stress: 5.0'), ('Room: [0, 7, 1]', 'Happiness:41.650000000000006', 'Stress: 9.690999999999999')]
+Total Happiness: 162.846
+[[(9, 0), (6, 0), (3, 0)], [(5, 1), (8, 1)], [(2, 2), (4, 2)], [(0, 3), (7, 3), (1, 3)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 24.99975
+[('Room: [7, 2]', 'Happiness:13.789', 'Stress: 24.980000000000004'), ('Room: [5, 3, 4, 0]', 'Happiness:59.993', 'Stress: 23.0'), ('Room: [1, 9]', 'Happiness:1.346', 'Stress: 7.000000000000002'), ('Room: [8, 6]', 'Happiness:1.0', 'Stress: 7.0')]
+Total Happiness: 76.128
+[[(7, 0), (2, 0)], [(5, 1), (3, 1), (4, 1), (0, 1)], [(1, 2), (9, 2)], [(8, 3), (6, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 12.0
+[('Room: [3, 2, 5]', 'Happiness:6.0', 'Stress: 6.0'), ('Room: [0, 4, 8, 7]', 'Happiness:12.0', 'Stress: 12.0'), ('Room: [6, 9, 1]', 'Happiness:4.0', 'Stress: 6.0')]
+Total Happiness: 22.0
+[[(3, 0), (2, 0), (5, 0)], [(0, 1), (4, 1), (8, 1), (7, 1)], [(6, 2), (9, 2), (1, 2)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 12.0
+[('Room: [0, 7]', 'Happiness:10.0', 'Stress: 3.0'), ('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [4, 5, 6]', 'Happiness:150.0', 'Stress: 11.0'), ('Room: [8]', 'Happiness:0', 'Stress: 0'), ('Room: [2, 1, 3]', 'Happiness:130.0', 'Stress: 8.0')]
+Total Happiness: 290.0
+[[(0, 0), (7, 0)], [(9, 1)], [(4, 2), (5, 2), (6, 2)], [(8, 3)], [(2, 4), (1, 4), (3, 4)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 16.0
+[('Room: [2, 0]', 'Happiness:9.0', 'Stress: 8.182'), ('Room: [9, 1]', 'Happiness:9.0', 'Stress: 8.435'), ('Room: [5]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [6, 7]', 'Happiness:8.0', 'Stress: 7.193'), ('Room: [4, 3, 8]', 'Happiness:26.0', 'Stress: 13.928')]
+Total Happiness: 52.0
+[[(2, 0), (0, 0)], [(9, 1), (1, 1)], [(5, 2)], [(6, 3), (7, 3)], [(4, 4), (3, 4), (8, 4)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 11.0
+[('Room: [2, 7]', 'Happiness:30.0', 'Stress: 2.0'), ('Room: [8, 3]', 'Happiness:30.0', 'Stress: 2.0'), ('Room: [5, 0]', 'Happiness:20.0', 'Stress: 2.0'), ('Room: [4, 9]', 'Happiness:50.0', 'Stress: 2.0'), ('Room: [6, 1]', 'Happiness:40.0', 'Stress: 2.0')]
+Total Happiness: 170.0
+[[(2, 0), (7, 0)], [(8, 1), (3, 1)], [(5, 2), (0, 2)], [(4, 3), (9, 3)], [(6, 4), (1, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 24.75
+[('Room: [5, 0, 4]', 'Happiness:30.0', 'Stress: 3.0'), ('Room: [1, 9]', 'Happiness:10.0', 'Stress: 1.0'), ('Room: [3, 7]', 'Happiness:10.0', 'Stress: 1.0'), ('Room: [8, 6, 2]', 'Happiness:12.0', 'Stress: 21.0')]
+Total Happiness: 62.0
+[[(5, 0), (0, 0), (4, 0)], [(1, 1), (9, 1)], [(3, 2), (7, 2)], [(8, 3), (6, 3), (2, 3)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 16.30075
+[('Room: [2, 7]', 'Happiness:8.149', 'Stress: 0.114'), ('Room: [0, 3, 5, 1]', 'Happiness:290.97', 'Stress: 12.841000000000001'), ('Room: [8]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [6, 4, 9]', 'Happiness:111.869', 'Stress: 12.841000000000001')]
+Total Happiness: 410.98800000000006
+[[(2, 0), (7, 0)], [(0, 1), (3, 1), (5, 1), (1, 1)], [(8, 2)], [(6, 3), (4, 3), (9, 3)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 19.9998
+[('Room: [0, 1]', 'Happiness:47.0', 'Stress: 10.41'), ('Room: [5, 7]', 'Happiness:49.0', 'Stress: 10.9'), ('Room: [8, 9, 6]', 'Happiness:135.0', 'Stress: 14.34'), ('Room: [2, 4]', 'Happiness:49.0', 'Stress: 10.67'), ('Room: [3]', 'Happiness:0.0', 'Stress: 0.0')]
+Total Happiness: 280.0
+[[(0, 0), (1, 0)], [(5, 1), (7, 1)], [(8, 2), (9, 2), (6, 2)], [(2, 3), (4, 3)], [(3, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 24.21025
+[('Room: [0, 8, 4]', 'Happiness:255.505', 'Stress: 12.652999999999999'), ('Room: [6]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [7, 5, 9]', 'Happiness:149.77100000000002', 'Stress: 22.301000000000002'), ('Room: [2, 3, 1]', 'Happiness:210.007', 'Stress: 13.396')]
+Total Happiness: 615.283
+[[(0, 0), (8, 0), (4, 0)], [(6, 1)], [(7, 2), (5, 2), (9, 2)], [(2, 3), (3, 3), (1, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 30.0
+[('Room: [0, 5, 4, 2]', 'Happiness:63.837', 'Stress: 29.9'), ('Room: [9, 3, 7, 6]', 'Happiness:43.232', 'Stress: 28.198999999999998'), ('Room: [8, 1]', 'Happiness:2.4900000000000038', 'Stress: 5.382')]
+Total Happiness: 109.55900000000001
+[[(0, 0), (5, 0), (4, 0), (2, 0)], [(9, 1), (3, 1), (7, 1), (6, 1)], [(8, 2), (1, 2)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 25.0
+[('Room: [2, 3, 0, 5, 1, 4, 9]', 'Happiness:1167.5900000000001', 'Stress: 22.963'), ('Room: [6, 8, 7]', 'Happiness:195.41400000000016', 'Stress: 3.187000000000001')]
+Total Happiness: 1363.0040000000004
+[[(2, 0), (3, 0), (0, 0), (5, 0), (1, 0), (4, 0), (9, 0)], [(6, 1), (8, 1), (7, 1)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 40.0
+[('Room: [9, 7, 6, 3, 4]', 'Happiness:667.773', 'Stress: 31.174'), ('Room: [1, 0, 8, 5, 2]', 'Happiness:684.9780000000001', 'Stress: 21.647000000000002')]
+Total Happiness: 1352.7510000000002
+[[(9, 0), (7, 0), (6, 0), (3, 0), (4, 0)], [(1, 1), (0, 1), (8, 1), (5, 1), (2, 1)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 0.5
+[('Room: [0, 6, 3, 7, 4, 8]', 'Happiness:0.31200000000000006', 'Stress: 0.268'), ('Room: [9, 2]', 'Happiness:65.307', 'Stress: 0.034'), ('Room: [1, 5]', 'Happiness:48.966', 'Stress: 0.014')]
+Total Happiness: 114.58500000000001
+[[(0, 0), (6, 0), (3, 0), (7, 0), (4, 0), (8, 0)], [(9, 1), (2, 1)], [(1, 2), (5, 2)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 22.5
+[('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [9, 4, 6]', 'Happiness:169.54500000000002', 'Stress: 16.644'), ('Room: [0, 2, 5]', 'Happiness:172.131', 'Stress: 15.687000000000001'), ('Room: [8, 7, 3]', 'Happiness:212.324', 'Stress: 15.73')]
+Total Happiness: 554.0
+[[(1, 0)], [(9, 1), (4, 1), (6, 1)], [(0, 2), (2, 2), (5, 2)], [(8, 3), (7, 3), (3, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 30.0
+[('Room: [0, 3]', 'Happiness:10.0', 'Stress: 5.102999999999999'), ('Room: [6, 9, 5, 1]', 'Happiness:80.0', 'Stress: 26.277'), ('Room: [2, 4, 7, 8]', 'Happiness:79.0', 'Stress: 28.055')]
+Total Happiness: 169.0
+[[(0, 0), (3, 0)], [(6, 1), (9, 1), (5, 1), (1, 1)], [(2, 2), (4, 2), (7, 2), (8, 2)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 48.404
+[('Room: [3, 6, 2, 8]', 'Happiness:388.97', 'Stress: 29.15'), ('Room: [9, 7, 5, 4, 0, 1]', 'Happiness:891.089', 'Stress: 48.402')]
+Total Happiness: 1280.0590000000002
+[[(3, 0), (6, 0), (2, 0), (8, 0)], [(9, 1), (7, 1), (5, 1), (4, 1), (0, 1), (1, 1)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 18.0
+[('Room: [8, 7]', 'Happiness:9.9', 'Stress: 14.0'), ('Room: [9]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [3, 6, 4]', 'Happiness:297.0', 'Stress: 12.501'), ('Room: [1, 2]', 'Happiness:99.0', 'Stress: 8.333'), ('Room: [0, 5]', 'Happiness:99.0', 'Stress: 8.333')]
+Total Happiness: 504.9
+[[(8, 0), (7, 0)], [(9, 1)], [(3, 2), (6, 2), (4, 2)], [(1, 3), (2, 3)], [(0, 4), (5, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 11.7485
+[('Room: [2]', 'Happiness:7.105427357601002e-15', 'Stress: 0.0'), ('Room: [7, 3, 0]', 'Happiness:255.166', 'Stress: 8.316'), ('Room: [9, 6, 8]', 'Happiness:216.425', 'Stress: 11.495999999999999'), ('Room: [5, 4, 1]', 'Happiness:251.35899999999998', 'Stress: 11.181999999999999')]
+Total Happiness: 722.95
+[[(2, 0)], [(7, 1), (3, 1), (0, 1)], [(9, 2), (6, 2), (8, 2)], [(5, 3), (4, 3), (1, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 13.333333333333334
+[('Room: [1, 4, 9, 7]', 'Happiness:161.0', 'Stress: 13.0'), ('Room: [2, 3, 8]', 'Happiness:83.0', 'Stress: 9.0'), ('Room: [0, 6, 5]', 'Happiness:87.0', 'Stress: 10.0')]
+Total Happiness: 331.0
+[[(1, 0), (4, 0), (9, 0), (7, 0)], [(2, 1), (3, 1), (8, 1)], [(0, 2), (6, 2), (5, 2)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 10.219199999999999
+[('Room: [3, 6]', 'Happiness:42.202', 'Stress: 4.962'), ('Room: [9, 1, 0]', 'Happiness:167.572', 'Stress: 8.698'), ('Room: [5, 4]', 'Happiness:32.285', 'Stress: 6.953'), ('Room: [8]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [2, 7]', 'Happiness:23.304', 'Stress: 9.274')]
+Total Happiness: 265.363
+[[(3, 0), (6, 0)], [(9, 1), (1, 1), (0, 1)], [(5, 2), (4, 2)], [(8, 3)], [(2, 4), (7, 4)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 45.0
+[('Room: [7, 2, 4, 8]', 'Happiness:262.162', 'Stress: 26.432'), ('Room: [5, 0, 3, 1, 6, 9]', 'Happiness:844.642', 'Stress: 42.867999999999995')]
+Total Happiness: 1106.804
+[[(7, 0), (2, 0), (4, 0), (8, 0)], [(5, 1), (0, 1), (3, 1), (1, 1), (6, 1), (9, 1)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 16.397333333333332
+[('Room: [9, 7, 0]', 'Happiness:26.886000000000003', 'Stress: 13.443000000000001'), ('Room: [3, 8, 4, 6]', 'Happiness:29.470000000000002', 'Stress: 14.735'), ('Room: [2, 1, 5]', 'Happiness:23.904000000000003', 'Stress: 11.952')]
+Total Happiness: 80.26000000000002
+[[(9, 0), (7, 0), (0, 0)], [(3, 1), (8, 1), (4, 1), (6, 1)], [(2, 2), (1, 2), (5, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 26.666666666666668
+[('Room: [0, 1, 7]', 'Happiness:50.60800000000002', 'Stress: 17.936'), ('Room: [9, 8, 2, 5]', 'Happiness:65.168', 'Stress: 22.656000000000002'), ('Room: [4, 6, 3]', 'Happiness:79.998', 'Stress: 26.666')]
+Total Happiness: 195.77400000000003
+[[(0, 0), (1, 0), (7, 0)], [(9, 1), (8, 1), (2, 1), (5, 1)], [(4, 2), (6, 2), (3, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 23.876
+[('Room: [7, 8, 5, 6]', 'Happiness:458.993', 'Stress: 2.2699999999999996'), ('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [0, 1, 3, 4, 2]', 'Happiness:775.215', 'Stress: 1.3339999999999999')]
+Total Happiness: 1234.208
+[[(7, 0), (8, 0), (5, 0), (6, 0)], [(9, 1)], [(0, 2), (1, 2), (3, 2), (4, 2), (2, 2)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 1.6666666666666667
+[('Room: [3, 8]', 'Happiness:44.095', 'Stress: 1.113'), ('Room: [9, 4]', 'Happiness:60.281', 'Stress: 0.046'), ('Room: [0, 6]', 'Happiness:98.204', 'Stress: 0.621'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [2, 1]', 'Happiness:94.867', 'Stress: 1.333')]
+Total Happiness: 297.447
+[[(3, 0), (8, 0)], [(9, 1), (4, 1)], [(0, 2), (6, 2)], [(7, 3)], [(5, 4)], [(2, 5), (1, 5)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 26.666666666666668
+[('Room: [4, 9, 6, 5]', 'Happiness:360.0', 'Stress: 26.646'), ('Room: [1, 3, 0]', 'Happiness:108.0', 'Stress: 18.584'), ('Room: [7, 8, 2]', 'Happiness:241.0', 'Stress: 10.153')]
+Total Happiness: 709.0
+[[(4, 0), (9, 0), (6, 0), (5, 0)], [(1, 1), (3, 1), (0, 1)], [(7, 2), (8, 2), (2, 2)]]
+Greedy:
+Num Rooms: 10
+Max Stress per room: 1.5
+[('Room: [3]', 'Happiness:0', 'Stress: 0'), ('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [8]', 'Happiness:0', 'Stress: 0'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [2]', 'Happiness:0', 'Stress: 0'), ('Room: [7]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 0
+[[(3, 0)], [(9, 1)], [(4, 2)], [(8, 3)], [(1, 4)], [(5, 5)], [(0, 6)], [(6, 7)], [(2, 8)], [(7, 9)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 45.012
+[('Room: [1, 8, 5, 2]', 'Happiness:319.23300000000006', 'Stress: 15.998999999999999'), ('Room: [7, 3, 9, 0, 4, 6]', 'Happiness:908.6240000000003', 'Stress: 28.859999999999996')]
+Total Happiness: 1227.8570000000004
+[[(1, 0), (8, 0), (5, 0), (2, 0)], [(7, 1), (3, 1), (9, 1), (0, 1), (4, 1), (6, 1)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 6.0
+[('Room: [9, 2, 6]', 'Happiness:3.0', 'Stress: 6.0'), ('Room: [4, 0]', 'Happiness:1.0', 'Stress: 4.0'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [8, 3]', 'Happiness:1.0', 'Stress: 4.0')]
+Total Happiness: 5.0
+[[(9, 0), (2, 0), (6, 0)], [(4, 1), (0, 1)], [(7, 2)], [(1, 3)], [(5, 4)], [(8, 5), (3, 5)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 15.0
+[('Room: [7, 1]', 'Happiness:53.0', 'Stress: 6.256'), ('Room: [3, 9]', 'Happiness:54.0', 'Stress: 6.259'), ('Room: [0, 6]', 'Happiness:54.0', 'Stress: 6.257'), ('Room: [5, 4]', 'Happiness:54.0', 'Stress: 6.256'), ('Room: [2, 8]', 'Happiness:50.0', 'Stress: 6.257')]
+Total Happiness: 265.0
+[[(7, 0), (1, 0)], [(3, 1), (9, 1)], [(0, 2), (6, 2)], [(5, 3), (4, 3)], [(2, 4), (8, 4)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 16.5
+[('Room: [0, 2]', 'Happiness:88.0', 'Stress: 10.0'), ('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [6, 7]', 'Happiness:79.0', 'Stress: 5.0'), ('Room: [3, 5]', 'Happiness:85.0', 'Stress: 8.0'), ('Room: [4, 8]', 'Happiness:95.0', 'Stress: 2.0')]
+Total Happiness: 347.0
+[[(0, 0), (2, 0)], [(9, 1)], [(1, 2)], [(6, 3), (7, 3)], [(3, 4), (5, 4)], [(4, 5), (8, 5)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 26.666666666666668
+[('Room: [8, 4, 9]', 'Happiness:20.532000000000004', 'Stress: 20.697'), ('Room: [6, 0, 2, 3]', 'Happiness:37.426', 'Stress: 22.899'), ('Room: [5, 7, 1]', 'Happiness:14.431', 'Stress: 18.472')]
+Total Happiness: 72.38900000000001
+[[(8, 0), (4, 0), (9, 0)], [(6, 1), (0, 1), (2, 1), (3, 1)], [(5, 2), (7, 2), (1, 2)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 16.8912
+[('Room: [8, 5, 7]', 'Happiness:92.0', 'Stress: 13.578'), ('Room: [4]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [2, 3]', 'Happiness:85.842', 'Stress: 8.883'), ('Room: [9, 6]', 'Happiness:24.0', 'Stress: 6.003'), ('Room: [0, 1]', 'Happiness:66.242', 'Stress: 11.13')]
+Total Happiness: 268.084
+[[(8, 0), (5, 0), (7, 0)], [(4, 1)], [(2, 2), (3, 2)], [(9, 3), (6, 3)], [(0, 4), (1, 4)]]
+Greedy:
+Num Rooms: 8
+Max Stress per room: 6.25
+[('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [8]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [1, 6]', 'Happiness:13.321', 'Stress: 4.757'), ('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [3]', 'Happiness:0', 'Stress: 0'), ('Room: [9]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [7, 0]', 'Happiness:13.535', 'Stress: 3.657'), ('Room: [2]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 26.856
+[[(4, 0)], [(8, 1)], [(1, 2), (6, 2)], [(5, 3)], [(3, 4)], [(9, 5)], [(7, 6), (0, 6)], [(2, 7)]]
+Greedy:
+Num Rooms: 10
+Max Stress per room: 9.1428
+[('Room: [2]', 'Happiness:0', 'Stress: 0'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [3]', 'Happiness:0', 'Stress: 0'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [8]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 0
+[[(2, 0)], [(1, 1)], [(4, 2)], [(6, 3)], [(3, 4)], [(7, 5)], [(0, 6)], [(5, 7)], [(9, 8)], [(8, 9)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 41.933
+[('Room: [9, 6, 7, 2, 1, 0]', 'Happiness:44.960000000000015', 'Stress: 41.907'), ('Room: [5, 4, 3, 8]', 'Happiness:16.695999999999998', 'Stress: 25.654999999999994')]
+Total Happiness: 61.65600000000001
+[[(9, 0), (6, 0), (7, 0), (2, 0), (1, 0), (0, 0)], [(5, 1), (4, 1), (3, 1), (8, 1)]]
+Greedy:
+Num Rooms: 7
+Max Stress per room: 3.739142857142857
+[('Room: [8, 7]', 'Happiness:51.139', 'Stress: 0.997'), ('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [0, 6]', 'Happiness:38.247', 'Stress: 1.707'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [2, 9]', 'Happiness:28.025', 'Stress: 0.994'), ('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [3]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 117.411
+[[(8, 0), (7, 0)], [(4, 1)], [(0, 2), (6, 2)], [(1, 3)], [(2, 4), (9, 4)], [(5, 5)], [(3, 6)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 30.228333333333335
+[('Room: [1, 3, 0, 2]', 'Happiness:89.084', 'Stress: 24.226'), ('Room: [7, 9, 8]', 'Happiness:42.117000000000004', 'Stress: 15.182000000000004'), ('Room: [5, 6, 4]', 'Happiness:57.599999999999994', 'Stress: 16.287')]
+Total Happiness: 188.80100000000002
+[[(1, 0), (3, 0), (0, 0), (2, 0)], [(7, 1), (9, 1), (8, 1)], [(5, 2), (6, 2), (4, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 17.671
+[('Room: [0, 3, 8, 4]', 'Happiness:353.995', 'Stress: 17.637'), ('Room: [9, 6, 5]', 'Happiness:173.34199999999998', 'Stress: 8.585'), ('Room: [7, 1, 2]', 'Happiness:176.201', 'Stress: 9.117')]
+Total Happiness: 703.538
+[[(0, 0), (3, 0), (8, 0), (4, 0)], [(9, 1), (6, 1), (5, 1)], [(7, 2), (1, 2), (2, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 2.3333333333333335
+[('Room: [4, 3, 5, 1]', 'Happiness:4.25', 'Stress: 1.3180000000000003'), ('Room: [7, 0, 2]', 'Happiness:2.2070000000000003', 'Stress: 1.271'), ('Room: [9, 6, 8]', 'Happiness:2.1260000000000003', 'Stress: 1.391')]
+Total Happiness: 8.583000000000002
+[[(4, 0), (3, 0), (5, 0), (1, 0)], [(7, 1), (0, 1), (2, 1)], [(9, 2), (6, 2), (8, 2)]]
+Greedy:
+Num Rooms: 1
+Max Stress per room: 99.99
+[('Room: [7, 8, 1, 2, 3, 9, 4, 6, 5, 0]', 'Happiness:869.1810000000005', 'Stress: 22.473999999999997')]
+Total Happiness: 869.1810000000005
+[[(7, 0), (8, 0), (1, 0), (2, 0), (3, 0), (9, 0), (4, 0), (6, 0), (5, 0), (0, 0)]]
+Greedy:
+Num Rooms: 8
+Max Stress per room: 1.125
+[('Room: [7, 5]', 'Happiness:3.198', 'Stress: 1.05'), ('Room: [6, 1]', 'Happiness:3.545', 'Stress: 0.946'), ('Room: [8]', 'Happiness:0', 'Stress: 0'), ('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [2]', 'Happiness:0', 'Stress: 0'), ('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [3]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 6.743
+[[(7, 0), (5, 0)], [(6, 1), (1, 1)], [(8, 2)], [(9, 3)], [(2, 4)], [(0, 5)], [(4, 6)], [(3, 7)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 16.0
+[('Room: [5, 6]', 'Happiness:50.698', 'Stress: 12.648'), ('Room: [3, 9]', 'Happiness:53.161', 'Stress: 1.776'), ('Room: [7, 1]', 'Happiness:86.987', 'Stress: 6.079'), ('Room: [2, 0]', 'Happiness:88.368', 'Stress: 6.849'), ('Room: [4, 8]', 'Happiness:10.72', 'Stress: 2.033')]
+Total Happiness: 289.934
+[[(5, 0), (6, 0)], [(3, 1), (9, 1)], [(7, 2), (1, 2)], [(2, 3), (0, 3)], [(4, 4), (8, 4)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 30.867
+[('Room: [9, 7, 6]', 'Happiness:30.284999999999997', 'Stress: 20.885'), ('Room: [2, 3, 8, 5]', 'Happiness:51.811', 'Stress: 28.151999999999997'), ('Room: [0, 1, 4]', 'Happiness:27.617', 'Stress: 23.794000000000004')]
+Total Happiness: 109.71300000000001
+[[(9, 0), (7, 0), (6, 0)], [(2, 1), (3, 1), (8, 1), (5, 1)], [(0, 2), (1, 2), (4, 2)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 14.0
+[('Room: [3, 5, 0, 8]', 'Happiness:349.0340000000001', 'Stress: 7.184'), ('Room: [9, 7, 1, 2, 6, 4]', 'Happiness:817.9590000000001', 'Stress: 13.43')]
+Total Happiness: 1166.9930000000002
+[[(3, 0), (5, 0), (0, 0), (8, 0)], [(9, 1), (7, 1), (1, 1), (2, 1), (6, 1), (4, 1)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.0
+[('Room: [0, 4, 1]', 'Happiness:21.0', 'Stress: 8.927999999999999'), ('Room: [7, 2, 3, 8]', 'Happiness:70.0', 'Stress: 31.32'), ('Room: [9, 6, 5]', 'Happiness:30.0', 'Stress: 23.114')]
+Total Happiness: 121.0
+[[(0, 0), (4, 0), (1, 0)], [(7, 1), (2, 1), (3, 1), (8, 1)], [(9, 2), (6, 2), (5, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 14.935666666666668
+[('Room: [1, 9]', 'Happiness:59.944', 'Stress: 7.192'), ('Room: [4, 5]', 'Happiness:45.554', 'Stress: 6.281'), ('Room: [2, 3, 0, 6, 8, 7]', 'Happiness:797.7470000000001', 'Stress: 5.6')]
+Total Happiness: 903.2450000000001
+[[(1, 0), (9, 0)], [(4, 1), (5, 1)], [(2, 2), (3, 2), (0, 2), (6, 2), (8, 2), (7, 2)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 17.5
+[('Room: [8, 7, 0, 5]', 'Happiness:370.665', 'Stress: 10.609'), ('Room: [1, 2, 6, 9, 4, 3]', 'Happiness:588.0970000000001', 'Stress: 16.994000000000003')]
+Total Happiness: 958.7620000000002
+[[(8, 0), (7, 0), (0, 0), (5, 0)], [(1, 1), (2, 1), (6, 1), (9, 1), (4, 1), (3, 1)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 49.5
+[('Room: [9, 2, 6, 7, 4]', 'Happiness:40.412000000000006', 'Stress: 48.83'), ('Room: [0, 3, 8, 1, 5]', 'Happiness:46.63099999999999', 'Stress: 28.921')]
+Total Happiness: 87.043
+[[(9, 0), (2, 0), (6, 0), (7, 0), (4, 0)], [(0, 1), (3, 1), (8, 1), (1, 1), (5, 1)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 12.5
+[('Room: [5]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [1, 2]', 'Happiness:5.97', 'Stress: 6.3'), ('Room: [3, 4]', 'Happiness:5.35', 'Stress: 6.77'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [0]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [9, 8, 6]', 'Happiness:16.62', 'Stress: 7.9399999999999995')]
+Total Happiness: 27.94
+[[(5, 0)], [(1, 1), (2, 1)], [(3, 2), (4, 2)], [(7, 3)], [(0, 4)], [(9, 5), (8, 5), (6, 5)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 9.5
+[('Room: [6, 8, 3]', 'Happiness:12.0', 'Stress: 8.0'), ('Room: [7, 9]', 'Happiness:5.0', 'Stress: 4.0'), ('Room: [4, 5]', 'Happiness:5.0', 'Stress: 4.0'), ('Room: [2, 1, 0]', 'Happiness:15.0', 'Stress: 6.0')]
+Total Happiness: 37.0
+[[(6, 0), (8, 0), (3, 0)], [(7, 1), (9, 1)], [(4, 2), (5, 2)], [(2, 3), (1, 3), (0, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 4.0
+[('Room: [0, 8, 4]', 'Happiness:8.0', 'Stress: 1.0'), ('Room: [1, 2, 9, 3]', 'Happiness:15.0', 'Stress: 4.0'), ('Room: [7, 5, 6]', 'Happiness:7.0', 'Stress: 1.0')]
+Total Happiness: 30.0
+[[(0, 0), (8, 0), (4, 0)], [(1, 1), (2, 1), (9, 1), (3, 1)], [(7, 2), (5, 2), (6, 2)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 16.666
+[('Room: [7, 6]', 'Happiness:10.0', 'Stress: 5.833'), ('Room: [1, 2]', 'Happiness:8.333', 'Stress: 6.917'), ('Room: [4, 5]', 'Happiness:10.0', 'Stress: 3.75'), ('Room: [8, 9]', 'Happiness:11.667', 'Stress: 8.333'), ('Room: [0, 3]', 'Happiness:6.833', 'Stress: 7.917')]
+Total Happiness: 46.833
+[[(7, 0), (6, 0)], [(1, 1), (2, 1)], [(4, 2), (5, 2)], [(8, 3), (9, 3)], [(0, 4), (3, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 20.0
+[('Room: [0, 8, 2]', 'Happiness:18.0', 'Stress: 18.913'), ('Room: [9, 1]', 'Happiness:9.0', 'Stress: 8.435'), ('Room: [3, 5]', 'Happiness:6.0', 'Stress: 9.103'), ('Room: [7, 4, 6]', 'Happiness:26.0', 'Stress: 14.922999999999998')]
+Total Happiness: 59.0
+[[(0, 0), (8, 0), (2, 0)], [(9, 1), (1, 1)], [(3, 2), (5, 2)], [(7, 3), (4, 3), (6, 3)]]
+Greedy:
+Num Rooms: 7
+Max Stress per room: 7.142857142857143
+[('Room: [1]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [9, 2, 6]', 'Happiness:39.112', 'Stress: 0.0'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [8, 5]', 'Happiness:13.946', 'Stress: 0.0'), ('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [3]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 53.058
+[[(1, 0)], [(9, 1), (2, 1), (6, 1)], [(7, 2)], [(4, 3)], [(8, 4), (5, 4)], [(0, 5)], [(3, 6)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 3.2
+[('Room: [7, 9]', 'Happiness:19.0', 'Stress: 2.0'), ('Room: [0]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [4, 3]', 'Happiness:15.0', 'Stress: 3.0'), ('Room: [2, 6, 5, 8]', 'Happiness:82.0', 'Stress: 3.0'), ('Room: [1]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 116.0
+[[(7, 0), (9, 0)], [(0, 1)], [(4, 2), (3, 2)], [(2, 3), (6, 3), (5, 3), (8, 3)], [(1, 4)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 19.9846
+[('Room: [0]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [2, 9]', 'Happiness:9.306000000000001', 'Stress: 14.662'), ('Room: [1, 7]', 'Happiness:15.22', 'Stress: 17.395'), ('Room: [6, 3]', 'Happiness:12.024', 'Stress: 17.512'), ('Room: [8, 4, 5]', 'Happiness:13.837000000000003', 'Stress: 15.640999999999998')]
+Total Happiness: 50.38700000000001
+[[(0, 0)], [(2, 1), (9, 1)], [(1, 2), (7, 2)], [(6, 3), (3, 3)], [(8, 4), (4, 4), (5, 4)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 8.333333333333334
+[('Room: [5, 7]', 'Happiness:15.034', 'Stress: 6.507'), ('Room: [0, 1]', 'Happiness:12.236', 'Stress: 3.085'), ('Room: [3]', 'Happiness:0', 'Stress: 0'), ('Room: [4, 6]', 'Happiness:14.44', 'Stress: 7.64'), ('Room: [2, 8]', 'Happiness:14.916', 'Stress: 3.971'), ('Room: [9]', 'Happiness:0.0', 'Stress: 0.0')]
+Total Happiness: 56.626000000000005
+[[(5, 0), (7, 0)], [(0, 1), (1, 1)], [(3, 2)], [(4, 3), (6, 3)], [(2, 4), (8, 4)], [(9, 5)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 12.9422
+[('Room: [8, 3]', 'Happiness:5.795', 'Stress: 11.404'), ('Room: [9, 0]', 'Happiness:10.963', 'Stress: 9.96'), ('Room: [5, 1]', 'Happiness:4.778', 'Stress: 6.83'), ('Room: [6, 4]', 'Happiness:5.51', 'Stress: 10.785'), ('Room: [7, 2]', 'Happiness:6.538', 'Stress: 9.025')]
+Total Happiness: 33.584
+[[(8, 0), (3, 0)], [(9, 1), (0, 1)], [(5, 2), (1, 2)], [(6, 3), (4, 3)], [(7, 4), (2, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 17.0
+[('Room: [0, 1, 3]', 'Happiness:7.0', 'Stress: 13.0'), ('Room: [6, 4, 9]', 'Happiness:15.0', 'Stress: 15.0'), ('Room: [7, 2]', 'Happiness:17.0', 'Stress: 14.0'), ('Room: [5, 8]', 'Happiness:1.0', 'Stress: 4.0')]
+Total Happiness: 40.0
+[[(0, 0), (1, 0), (3, 0)], [(6, 1), (4, 1), (9, 1)], [(7, 2), (2, 2)], [(5, 3), (8, 3)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 19.8
+[('Room: [8, 5]', 'Happiness:23.367', 'Stress: 2.597'), ('Room: [1, 0]', 'Happiness:99.909', 'Stress: 11.138'), ('Room: [3, 7, 6]', 'Happiness:191.703', 'Stress: 18.88'), ('Room: [2, 9]', 'Happiness:47.064', 'Stress: 3.407'), ('Room: [4]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 362.04300000000006
+[[(8, 0), (5, 0)], [(1, 1), (0, 1)], [(3, 2), (7, 2), (6, 2)], [(2, 3), (9, 3)], [(4, 4)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 22.666666666666668
+[('Room: [5, 2, 4, 1, 8]', 'Happiness:592.0', 'Stress: 22.0'), ('Room: [3, 9, 7, 0]', 'Happiness:417.0', 'Stress: 19.0'), ('Room: [6]', 'Happiness:0.0', 'Stress: 0.0')]
+Total Happiness: 1009.0
+[[(5, 0), (2, 0), (4, 0), (1, 0), (8, 0)], [(3, 1), (9, 1), (7, 1), (0, 1)], [(6, 2)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 18.0
+[('Room: [9, 7, 4]', 'Happiness:16.0', 'Stress: 16.15'), ('Room: [5, 8]', 'Happiness:10.25', 'Stress: 10.15'), ('Room: [6]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [0, 1]', 'Happiness:12.5', 'Stress: 4.0'), ('Room: [3, 2]', 'Happiness:15.0', 'Stress: 6.0')]
+Total Happiness: 53.75
+[[(9, 0), (7, 0), (4, 0)], [(5, 1), (8, 1)], [(6, 2)], [(0, 3), (1, 3)], [(3, 4), (2, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 15.0
+[('Room: [0, 8, 5]', 'Happiness:24.0', 'Stress: 11.969000000000001'), ('Room: [4, 9, 2]', 'Happiness:31.0', 'Stress: 14.748'), ('Room: [7]', 'Happiness:0.0', 'Stress: 4.440892098500626e-16'), ('Room: [1, 6, 3]', 'Happiness:21.0', 'Stress: 14.712')]
+Total Happiness: 76.0
+[[(0, 0), (8, 0), (5, 0)], [(4, 1), (9, 1), (2, 1)], [(7, 2)], [(1, 3), (6, 3), (3, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 26.666666666666668
+[('Room: [8, 4, 7, 1]', 'Happiness:40.0', 'Stress: 15.097000000000001'), ('Room: [0, 5]', 'Happiness:10.0', 'Stress: 16.0'), ('Room: [6, 3, 2, 9]', 'Happiness:44.0', 'Stress: 15.51')]
+Total Happiness: 94.0
+[[(8, 0), (4, 0), (7, 0), (1, 0)], [(0, 1), (5, 1)], [(6, 2), (3, 2), (2, 2), (9, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 26.043000000000003
+[('Room: [2, 3, 8]', 'Happiness:20.03700000000001', 'Stress: 11.131000000000002'), ('Room: [5, 6, 0]', 'Happiness:22.497999999999998', 'Stress: 21.819000000000003'), ('Room: [4, 7, 1, 9]', 'Happiness:51.999', 'Stress: 20.261000000000003')]
+Total Happiness: 94.53400000000002
+[[(2, 0), (3, 0), (8, 0)], [(5, 1), (6, 1), (0, 1)], [(4, 2), (7, 2), (1, 2), (9, 2)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 0.4476
+[('Room: [7, 6, 4]', 'Happiness:181.694', 'Stress: 0.44399999999999995'), ('Room: [5, 8]', 'Happiness:47.64', 'Stress: 0.447'), ('Room: [2]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [9]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [0, 3, 1]', 'Happiness:202.166', 'Stress: 0.446')]
+Total Happiness: 431.5
+[[(7, 0), (6, 0), (4, 0)], [(5, 1), (8, 1)], [(2, 2)], [(9, 3)], [(0, 4), (3, 4), (1, 4)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 19.6
+[('Room: [3, 2]', 'Happiness:14.0', 'Stress: 14.0'), ('Room: [0, 9]', 'Happiness:10.0', 'Stress: 10.0'), ('Room: [7, 4]', 'Happiness:10.0', 'Stress: 10.0'), ('Room: [6, 5]', 'Happiness:19.0', 'Stress: 19.0'), ('Room: [8, 1]', 'Happiness:3.0', 'Stress: 3.0')]
+Total Happiness: 56.0
+[[(3, 0), (2, 0)], [(0, 1), (9, 1)], [(7, 2), (4, 2)], [(6, 3), (5, 3)], [(8, 4), (1, 4)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.0
+[('Room: [1, 9, 6, 4]', 'Happiness:342.035', 'Stress: 20.371000000000002'), ('Room: [0, 7, 5]', 'Happiness:128.651', 'Stress: 6.616'), ('Room: [3, 2, 8]', 'Happiness:184.3', 'Stress: 31.758')]
+Total Happiness: 654.9860000000001
+[[(1, 0), (9, 0), (6, 0), (4, 0)], [(0, 1), (7, 1), (5, 1)], [(3, 2), (2, 2), (8, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 8.0
+[('Room: [4, 9, 1, 0]', 'Happiness:8.02', 'Stress: 6.0'), ('Room: [6, 7, 2]', 'Happiness:2.7', 'Stress: 5.0'), ('Room: [8, 3, 5]', 'Happiness:6.0', 'Stress: 5.5')]
+Total Happiness: 16.72
+[[(4, 0), (9, 0), (1, 0), (0, 0)], [(6, 1), (7, 1), (2, 1)], [(8, 2), (3, 2), (5, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 30.0
+[('Room: [0, 7, 2, 8]', 'Happiness:36.0', 'Stress: 21.0'), ('Room: [3, 9]', 'Happiness:7.0', 'Stress: 3.0'), ('Room: [1, 5, 6, 4]', 'Happiness:33.0', 'Stress: 29.0')]
+Total Happiness: 76.0
+[[(0, 0), (7, 0), (2, 0), (8, 0)], [(3, 1), (9, 1)], [(1, 2), (5, 2), (6, 2), (4, 2)]]
+Greedy:
+Num Rooms: 7
+Max Stress per room: 12.685714285714285
+[('Room: [4, 3]', 'Happiness:52.873', 'Stress: 7.4'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [0, 2]', 'Happiness:52.317', 'Stress: 7.4'), ('Room: [8]', 'Happiness:0', 'Stress: 0'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [5, 1]', 'Happiness:49.945', 'Stress: 7.424'), ('Room: [9]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 155.135
+[[(4, 0), (3, 0)], [(6, 1)], [(0, 2), (2, 2)], [(8, 3)], [(7, 4)], [(5, 5), (1, 5)], [(9, 6)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 13.333333333333334
+[('Room: [6, 7]', 'Happiness:86.0', 'Stress: 0.116'), ('Room: [8]', 'Happiness:0', 'Stress: 0'), ('Room: [9, 0]', 'Happiness:49.0', 'Stress: 6.83'), ('Room: [1, 3]', 'Happiness:3.0', 'Stress: 4.595'), ('Room: [2, 4]', 'Happiness:29.0', 'Stress: 7.611'), ('Room: [5]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 167.0
+[[(6, 0), (7, 0)], [(8, 1)], [(9, 2), (0, 2)], [(1, 3), (3, 3)], [(2, 4), (4, 4)], [(5, 5)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 19.0
+[('Room: [0, 5, 1]', 'Happiness:24.738', 'Stress: 10.973'), ('Room: [2, 4, 3, 8]', 'Happiness:55.029', 'Stress: 18.28'), ('Room: [6, 7, 9]', 'Happiness:25.681000000000004', 'Stress: 10.477')]
+Total Happiness: 105.44800000000001
+[[(0, 0), (5, 0), (1, 0)], [(2, 1), (4, 1), (3, 1), (8, 1)], [(6, 2), (7, 2), (9, 2)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 18.5865
+[('Room: [9, 4]', 'Happiness:33.719', 'Stress: 12.264'), ('Room: [6, 0]', 'Happiness:16.938', 'Stress: 12.068'), ('Room: [8, 2, 7]', 'Happiness:42.609', 'Stress: 11.209'), ('Room: [5, 1, 3]', 'Happiness:39.277', 'Stress: 16.08')]
+Total Happiness: 132.543
+[[(9, 0), (4, 0)], [(6, 1), (0, 1)], [(8, 2), (2, 2), (7, 2)], [(5, 3), (1, 3), (3, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.0
+[('Room: [0, 2, 4]', 'Happiness:277.0', 'Stress: 4.0'), ('Room: [3, 7, 8, 9]', 'Happiness:557.0', 'Stress: 32.0'), ('Room: [6, 1, 5]', 'Happiness:281.0', 'Stress: 8.0')]
+Total Happiness: 1115.0
+[[(0, 0), (2, 0), (4, 0)], [(3, 1), (7, 1), (8, 1), (9, 1)], [(6, 2), (1, 2), (5, 2)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 8.0
+[('Room: [5, 4]', 'Happiness:99.0', 'Stress: 6.0'), ('Room: [2, 7]', 'Happiness:45.0', 'Stress: 4.0'), ('Room: [3, 0]', 'Happiness:90.0', 'Stress: 7.0'), ('Room: [6, 1]', 'Happiness:76.0', 'Stress: 5.0'), ('Room: [9, 8]', 'Happiness:47.0', 'Stress: 3.0')]
+Total Happiness: 357.0
+[[(5, 0), (4, 0)], [(2, 1), (7, 1)], [(3, 2), (0, 2)], [(6, 3), (1, 3)], [(9, 4), (8, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 14.33625
+[('Room: [0, 5]', 'Happiness:8.0', 'Stress: 3.3'), ('Room: [3, 7, 6]', 'Happiness:70.0', 'Stress: 12.7'), ('Room: [4, 8]', 'Happiness:68.0', 'Stress: 8.7'), ('Room: [1, 9, 2]', 'Happiness:191.0', 'Stress: 8.899999999999999')]
+Total Happiness: 337.0
+[[(0, 0), (5, 0)], [(3, 1), (7, 1), (6, 1)], [(4, 2), (8, 2)], [(1, 3), (9, 3), (2, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.333
+[('Room: [1, 2, 0, 8, 9]', 'Happiness:743.4069999999999', 'Stress: 33.318000000000005'), ('Room: [3, 6, 7, 5]', 'Happiness:290.33000000000004', 'Stress: 33.318'), ('Room: [4]', 'Happiness:0.0', 'Stress: 0.0')]
+Total Happiness: 1033.737
+[[(1, 0), (2, 0), (0, 0), (8, 0), (9, 0)], [(3, 1), (6, 1), (7, 1), (5, 1)], [(4, 2)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 17.8464
+[('Room: [7, 0]', 'Happiness:13.287', 'Stress: 11.602'), ('Room: [5]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [9, 6, 1]', 'Happiness:243.24300000000002', 'Stress: 3.954'), ('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [2, 3, 8]', 'Happiness:240.154', 'Stress: 12.833')]
+Total Happiness: 496.684
+[[(7, 0), (0, 0)], [(5, 1)], [(9, 2), (6, 2), (1, 2)], [(4, 3)], [(2, 4), (3, 4), (8, 4)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 49.9995
+[('Room: [5]', 'Happiness:9.947598300641403e-14', 'Stress: 0.0'), ('Room: [0, 2, 7, 4, 3, 8, 1, 6, 9]', 'Happiness:3597.63', 'Stress: 36.0')]
+Total Happiness: 3597.63
+[[(5, 0)], [(0, 1), (2, 1), (7, 1), (4, 1), (3, 1), (8, 1), (1, 1), (6, 1), (9, 1)]]
+Greedy:
+Num Rooms: 8
+Max Stress per room: 1.25
+[('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [2]', 'Happiness:0', 'Stress: 0'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [0, 3]', 'Happiness:0.68', 'Stress: 0.825'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [8, 5]', 'Happiness:0.68', 'Stress: 0.825')]
+Total Happiness: 1.36
+[[(9, 0)], [(2, 1)], [(7, 2)], [(4, 3)], [(0, 4), (3, 4)], [(1, 5)], [(6, 6)], [(8, 7), (5, 7)]]
+Greedy:
+Num Rooms: 8
+Max Stress per room: 2.25
+[('Room: [6, 8]', 'Happiness:36.66', 'Stress: 2.0'), ('Room: [3, 1]', 'Happiness:55.86', 'Stress: 2.0'), ('Room: [2]', 'Happiness:0', 'Stress: 0'), ('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [9]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 92.52
+[[(6, 0), (8, 0)], [(3, 1), (1, 1)], [(2, 2)], [(4, 3)], [(0, 4)], [(5, 5)], [(7, 6)], [(9, 7)]]
+Greedy:
+Num Rooms: 7
+Max Stress per room: 2.857142857142857
+[('Room: [2, 7]', 'Happiness:10.0', 'Stress: 2.748'), ('Room: [3]', 'Happiness:0', 'Stress: 0'), ('Room: [8]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [9, 1, 5]', 'Happiness:30.0', 'Stress: 2.067')]
+Total Happiness: 40.0
+[[(2, 0), (7, 0)], [(3, 1)], [(8, 2)], [(6, 3)], [(4, 4)], [(0, 5)], [(9, 6), (1, 6), (5, 6)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 2.3333333333333335
+[('Room: [4, 9, 0]', 'Happiness:5.349', 'Stress: 1.4929999999999999'), ('Room: [1, 3, 7, 6]', 'Happiness:8.810000000000002', 'Stress: 2.0349999999999997'), ('Room: [2, 5, 8]', 'Happiness:4.1370000000000005', 'Stress: 1.547')]
+Total Happiness: 18.296000000000003
+[[(4, 0), (9, 0), (0, 0)], [(1, 1), (3, 1), (7, 1), (6, 1)], [(2, 2), (5, 2), (8, 2)]]
+Greedy:
+Num Rooms: 1
+Max Stress per room: 80.0
+[('Room: [7, 4, 1, 6, 3, 2, 0, 9, 5, 8]', 'Happiness:45.0', 'Stress: 45.0')]
+Total Happiness: 45.0
+[[(7, 0), (4, 0), (1, 0), (6, 0), (3, 0), (2, 0), (0, 0), (9, 0), (5, 0), (8, 0)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 3.25
+[('Room: [3, 9]', 'Happiness:28.0', 'Stress: 0.6199999999999999'), ('Room: [8, 2]', 'Happiness:29.0', 'Stress: 0.61'), ('Room: [6, 0, 4]', 'Happiness:98.0', 'Stress: 1.68'), ('Room: [5, 7, 1]', 'Happiness:81.0', 'Stress: 1.9')]
+Total Happiness: 236.0
+[[(3, 0), (9, 0)], [(8, 1), (2, 1)], [(6, 2), (0, 2), (4, 2)], [(5, 3), (7, 3), (1, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 16.82133333333333
+[('Room: [8, 4, 2, 0]', 'Happiness:17.216', 'Stress: 12.193999999999999'), ('Room: [6, 7]', 'Happiness:18.085', 'Stress: 15.016'), ('Room: [9, 5, 1, 3]', 'Happiness:21.767000000000003', 'Stress: 15.908999999999999')]
+Total Happiness: 57.068000000000005
+[[(8, 0), (4, 0), (2, 0), (0, 0)], [(6, 1), (7, 1)], [(9, 2), (5, 2), (1, 2), (3, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 8.0
+[('Room: [7, 8]', 'Happiness:1.0', 'Stress: 1.0'), ('Room: [5, 3, 6, 1]', 'Happiness:6.0', 'Stress: 6.0'), ('Room: [9, 2, 0, 4]', 'Happiness:6.0', 'Stress: 6.0')]
+Total Happiness: 13.0
+[[(7, 0), (8, 0)], [(5, 1), (3, 1), (6, 1), (1, 1)], [(9, 2), (2, 2), (0, 2), (4, 2)]]
+Greedy:
+Num Rooms: 10
+Max Stress per room: 1.5
+[('Room: [2]', 'Happiness:0', 'Stress: 0'), ('Room: [3]', 'Happiness:0', 'Stress: 0'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [8]', 'Happiness:0', 'Stress: 0'), ('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [4]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 0
+[[(2, 0)], [(3, 1)], [(6, 2)], [(8, 3)], [(5, 4)], [(1, 5)], [(7, 6)], [(9, 7)], [(0, 8)], [(4, 9)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 12.0
+[('Room: [8, 1]', 'Happiness:25.0', 'Stress: 5.0'), ('Room: [5, 9]', 'Happiness:25.0', 'Stress: 10.0'), ('Room: [4, 3]', 'Happiness:20.0', 'Stress: 5.0'), ('Room: [7, 6]', 'Happiness:20.0', 'Stress: 5.0'), ('Room: [0, 2]', 'Happiness:20.0', 'Stress: 5.0')]
+Total Happiness: 110.0
+[[(8, 0), (1, 0)], [(5, 1), (9, 1)], [(4, 2), (3, 2)], [(7, 3), (6, 3)], [(0, 4), (2, 4)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.300000000000004
+[('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [7, 3, 1, 0, 8]', 'Happiness:548.9200000000002', 'Stress: 0.18000000000000024'), ('Room: [2, 9, 4, 5]', 'Happiness:238.79000000000002', 'Stress: 0.09')]
+Total Happiness: 787.7100000000003
+[[(6, 0)], [(7, 1), (3, 1), (1, 1), (0, 1), (8, 1)], [(2, 2), (9, 2), (4, 2), (5, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.300000000000004
+[('Room: [3, 2, 6, 0, 7]', 'Happiness:360.563', 'Stress: 31.362000000000002'), ('Room: [8, 1, 5]', 'Happiness:177.783', 'Stress: 33.29900000000001'), ('Room: [9, 4]', 'Happiness:38.52300000000001', 'Stress: 22.13')]
+Total Happiness: 576.869
+[[(3, 0), (2, 0), (6, 0), (0, 0), (7, 0)], [(8, 1), (1, 1), (5, 1)], [(9, 2), (4, 2)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 48.662
+[('Room: [0, 6, 4]', 'Happiness:225.59700000000015', 'Stress: 9.993999999999993'), ('Room: [2, 1, 8, 3, 9, 7, 5]', 'Happiness:1637.5780000000002', 'Stress: 48.17700000000001')]
+Total Happiness: 1863.1750000000004
+[[(0, 0), (6, 0), (4, 0)], [(2, 1), (1, 1), (8, 1), (3, 1), (9, 1), (7, 1), (5, 1)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 14.0
+[('Room: [7, 9]', 'Happiness:93.394', 'Stress: 10.695'), ('Room: [8, 1]', 'Happiness:98.97', 'Stress: 7.11'), ('Room: [3, 2]', 'Happiness:76.13', 'Stress: 5.762'), ('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [6, 0, 5]', 'Happiness:231.603', 'Stress: 9.529')]
+Total Happiness: 500.09700000000004
+[[(7, 0), (9, 0)], [(8, 1), (1, 1)], [(3, 2), (2, 2)], [(4, 3)], [(6, 4), (0, 4), (5, 4)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.0
+[('Room: [9, 7, 6]', 'Happiness:81.95', 'Stress: 7.696'), ('Room: [3, 8, 4]', 'Happiness:67.708', 'Stress: 10.058'), ('Room: [2, 5, 0, 1]', 'Happiness:219.23700000000002', 'Stress: 26.857999999999997')]
+Total Happiness: 368.89500000000004
+[[(9, 0), (7, 0), (6, 0)], [(3, 1), (8, 1), (4, 1)], [(2, 2), (5, 2), (0, 2), (1, 2)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 5.0
+[('Room: [8, 6, 7]', 'Happiness:18.0', 'Stress: 4.800000000000001'), ('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [3]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [9]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [2, 4, 5]', 'Happiness:15.0', 'Stress: 4.5')]
+Total Happiness: 33.0
+[[(8, 0), (6, 0), (7, 0)], [(0, 1)], [(3, 2)], [(9, 3)], [(1, 4)], [(2, 5), (4, 5), (5, 5)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 22.25
+[('Room: [2, 0, 6]', 'Happiness:27.0', 'Stress: 21.722'), ('Room: [4, 1, 9]', 'Happiness:25.0', 'Stress: 21.154'), ('Room: [7]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [5, 3, 8]', 'Happiness:27.0', 'Stress: 19.681')]
+Total Happiness: 79.0
+[[(2, 0), (0, 0), (6, 0)], [(4, 1), (1, 1), (9, 1)], [(7, 2)], [(5, 3), (3, 3), (8, 3)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 19.9998
+[('Room: [5, 4]', 'Happiness:30.001', 'Stress: 19.9'), ('Room: [9, 8]', 'Happiness:37.0', 'Stress: 19.9'), ('Room: [3]', 'Happiness:1.7763568394002505e-15', 'Stress: 0.0'), ('Room: [2, 0, 1]', 'Happiness:90.006', 'Stress: 19.999'), ('Room: [7, 6]', 'Happiness:35.0', 'Stress: 18.5')]
+Total Happiness: 192.007
+[[(5, 0), (4, 0)], [(9, 1), (8, 1)], [(3, 2)], [(2, 3), (0, 3), (1, 3)], [(7, 4), (6, 4)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 32.32633333333333
+[('Room: [8, 9, 0, 3]', 'Happiness:137.941', 'Stress: 30.913'), ('Room: [1, 2, 5, 6]', 'Happiness:138.529', 'Stress: 30.164'), ('Room: [4, 7]', 'Happiness:22.210000000000008', 'Stress: 4.859000000000002')]
+Total Happiness: 298.68000000000006
+[[(8, 0), (9, 0), (0, 0), (3, 0)], [(1, 1), (2, 1), (5, 1), (6, 1)], [(4, 2), (7, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 32.32633333333333
+[('Room: [5, 6, 1, 2]', 'Happiness:138.529', 'Stress: 30.163999999999998'), ('Room: [8, 0, 9, 3]', 'Happiness:137.941', 'Stress: 30.913'), ('Room: [4, 7]', 'Happiness:22.210000000000008', 'Stress: 4.858999999999998')]
+Total Happiness: 298.68000000000006
+[[(5, 0), (6, 0), (1, 0), (2, 0)], [(8, 1), (0, 1), (9, 1), (3, 1)], [(4, 2), (7, 2)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 8.438
+[('Room: [8, 0, 3, 4]', 'Happiness:33.663', 'Stress: 8.339'), ('Room: [2, 7, 1]', 'Happiness:16.886000000000003', 'Stress: 8.384'), ('Room: [9, 6]', 'Happiness:12.51', 'Stress: 8.437'), ('Room: [5]', 'Happiness:0.0', 'Stress: 0.0')]
+Total Happiness: 63.059
+[[(8, 0), (0, 0), (3, 0), (4, 0)], [(2, 1), (7, 1), (1, 1)], [(9, 2), (6, 2)], [(5, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.333
+[('Room: [2, 5, 8]', 'Happiness:195.0', 'Stress: 16.665'), ('Room: [4, 7, 1]', 'Happiness:195.0', 'Stress: 16.665'), ('Room: [9, 6, 0, 3]', 'Happiness:569.994', 'Stress: 33.33')]
+Total Happiness: 959.994
+[[(2, 0), (5, 0), (8, 0)], [(4, 1), (7, 1), (1, 1)], [(9, 2), (6, 2), (0, 2), (3, 2)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 32.0
+[('Room: [1, 3, 9, 2, 6]', 'Happiness:83.0', 'Stress: 23.040000000000006'), ('Room: [5, 0, 8, 7, 4]', 'Happiness:106.0', 'Stress: 26.83')]
+Total Happiness: 189.0
+[[(1, 0), (3, 0), (9, 0), (2, 0), (6, 0)], [(5, 1), (0, 1), (8, 1), (7, 1), (4, 1)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 8.0
+[('Room: [4, 8, 5, 6]', 'Happiness:133.56', 'Stress: 7.3100000000000005'), ('Room: [3, 7, 1]', 'Happiness:48.08', 'Stress: 1.38'), ('Room: [2, 0, 9]', 'Happiness:67.94', 'Stress: 3.34')]
+Total Happiness: 249.57999999999998
+[[(4, 0), (8, 0), (5, 0), (6, 0)], [(3, 1), (7, 1), (1, 1)], [(2, 2), (0, 2), (9, 2)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 19.8
+[('Room: [0, 2]', 'Happiness:99.0', 'Stress: 15.0'), ('Room: [5, 4]', 'Happiness:25.0', 'Stress: 17.0'), ('Room: [3, 1, 9]', 'Happiness:119.0', 'Stress: 18.0'), ('Room: [8, 7]', 'Happiness:98.0', 'Stress: 18.0'), ('Room: [6]', 'Happiness:0.0', 'Stress: 0.0')]
+Total Happiness: 341.0
+[[(0, 0), (2, 0)], [(5, 1), (4, 1)], [(3, 2), (1, 2), (9, 2)], [(8, 3), (7, 3)], [(6, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 18.83575
+[('Room: [1, 5, 6]', 'Happiness:23.044', 'Stress: 17.299'), ('Room: [4, 2, 9]', 'Happiness:41.147', 'Stress: 12.724'), ('Room: [3, 7]', 'Happiness:27.768', 'Stress: 11.192'), ('Room: [8, 0]', 'Happiness:1.611', 'Stress: 12.175')]
+Total Happiness: 93.57000000000001
+[[(1, 0), (5, 0), (6, 0)], [(4, 1), (2, 1), (9, 1)], [(3, 2), (7, 2)], [(8, 3), (0, 3)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 22.5
+[('Room: [7, 9, 3]', 'Happiness:192.0', 'Stress: 17.0'), ('Room: [6, 1, 2]', 'Happiness:36.0', 'Stress: 21.0'), ('Room: [8, 5, 4]', 'Happiness:32.0', 'Stress: 16.0'), ('Room: [0]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 260.0
+[[(7, 0), (9, 0), (3, 0)], [(6, 1), (1, 1), (2, 1)], [(8, 2), (5, 2), (4, 2)], [(0, 3)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 11.687333333333333
+[('Room: [6, 4, 8]', 'Happiness:120.70800000000001', 'Stress: 5.696'), ('Room: [5]', 'Happiness:0', 'Stress: 0'), ('Room: [2, 3]', 'Happiness:54.184', 'Stress: 2.842'), ('Room: [7, 0]', 'Happiness:53.776', 'Stress: 7.502'), ('Room: [1]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [9]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 228.668
+[[(6, 0), (4, 0), (8, 0)], [(5, 1)], [(2, 2), (3, 2)], [(7, 3), (0, 3)], [(1, 4)], [(9, 5)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 23.981666666666666
+[('Room: [9, 0, 3, 4]', 'Happiness:42.129000000000005', 'Stress: 15.713000000000001'), ('Room: [5, 1, 8]', 'Happiness:18.479', 'Stress: 7.142000000000001'), ('Room: [2, 6, 7]', 'Happiness:27.293', 'Stress: 17.488999999999997')]
+Total Happiness: 87.90100000000001
+[[(9, 0), (0, 0), (3, 0), (4, 0)], [(5, 1), (1, 1), (8, 1)], [(2, 2), (6, 2), (7, 2)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 19.9998
+[('Room: [1, 5]', 'Happiness:19.671', 'Stress: 8.108'), ('Room: [0, 9]', 'Happiness:16.743', 'Stress: 8.075'), ('Room: [7, 6]', 'Happiness:12.593', 'Stress: 8.373'), ('Room: [4, 3]', 'Happiness:16.462', 'Stress: 8.268'), ('Room: [8, 2]', 'Happiness:11.281', 'Stress: 8.296')]
+Total Happiness: 76.75000000000001
+[[(1, 0), (5, 0)], [(0, 1), (9, 1)], [(7, 2), (6, 2)], [(4, 3), (3, 3)], [(8, 4), (2, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 7.44
+[('Room: [8, 0, 4]', 'Happiness:183.273', 'Stress: 7.045'), ('Room: [2, 7, 6]', 'Happiness:150.074', 'Stress: 3.6559999999999997'), ('Room: [1, 9, 3]', 'Happiness:199.44', 'Stress: 5.43'), ('Room: [5]', 'Happiness:0.0', 'Stress: 0.0')]
+Total Happiness: 532.787
+[[(8, 0), (0, 0), (4, 0)], [(2, 1), (7, 1), (6, 1)], [(1, 2), (9, 2), (3, 2)], [(5, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 21.374333333333336
+[('Room: [8, 1, 5, 9]', 'Happiness:367.74700000000007', 'Stress: 20.954000000000004'), ('Room: [2, 4, 6]', 'Happiness:162.489', 'Stress: 15.616999999999999'), ('Room: [0, 7, 3]', 'Happiness:244.00799999999998', 'Stress: 9.575999999999999')]
+Total Happiness: 774.2440000000001
+[[(8, 0), (1, 0), (5, 0), (9, 0)], [(2, 1), (4, 1), (6, 1)], [(0, 2), (7, 2), (3, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 33.266666666666666
+[('Room: [4, 5]', 'Happiness:21.382999999999996', 'Stress: 3.317'), ('Room: [3, 7, 9, 1, 6]', 'Happiness:867.6500000000001', 'Stress: 23.41'), ('Room: [2, 8, 0]', 'Happiness:274.69', 'Stress: 24.326999999999998')]
+Total Happiness: 1163.7230000000002
+[[(4, 0), (5, 0)], [(3, 1), (7, 1), (9, 1), (1, 1), (6, 1)], [(2, 2), (8, 2), (0, 2)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 8.009
+[('Room: [2]', 'Happiness:0', 'Stress: 0'), ('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [7, 8]', 'Happiness:51.274', 'Stress: 4.803'), ('Room: [3, 0]', 'Happiness:34.937', 'Stress: 7.058'), ('Room: [1, 4]', 'Happiness:57.183', 'Stress: 5.741'), ('Room: [6, 5]', 'Happiness:66.855', 'Stress: 2.086')]
+Total Happiness: 210.24900000000002
+[[(2, 0)], [(9, 1)], [(7, 2), (8, 2)], [(3, 3), (0, 3)], [(1, 4), (4, 4)], [(6, 5), (5, 5)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 16.0668
+[('Room: [3, 6, 2]', 'Happiness:216.76500000000001', 'Stress: 13.163'), ('Room: [7, 8, 5]', 'Happiness:224.23899999999998', 'Stress: 11.224'), ('Room: [0, 4]', 'Happiness:30.051000000000016', 'Stress: 6.305'), ('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [1]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 471.05500000000006
+[[(3, 0), (6, 0), (2, 0)], [(7, 1), (8, 1), (5, 1)], [(0, 2), (4, 2)], [(9, 3)], [(1, 4)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 15.2
+[('Room: [4, 5]', 'Happiness:9.999', 'Stress: 5.98'), ('Room: [9, 2]', 'Happiness:9.766', 'Stress: 5.77'), ('Room: [1, 8]', 'Happiness:9.999', 'Stress: 5.96'), ('Room: [7, 3]', 'Happiness:9.654', 'Stress: 5.66'), ('Room: [6, 0]', 'Happiness:9.808', 'Stress: 12.453')]
+Total Happiness: 49.226000000000006
+[[(4, 0), (5, 0)], [(9, 1), (2, 1)], [(1, 2), (8, 2)], [(7, 3), (3, 3)], [(6, 4), (0, 4)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 21.25
+[('Room: [9, 8]', 'Happiness:9.0', 'Stress: 2.247'), ('Room: [3, 0, 5]', 'Happiness:16.0', 'Stress: 14.788'), ('Room: [7, 1, 6]', 'Happiness:26.0', 'Stress: 15.622'), ('Room: [2, 4]', 'Happiness:9.0', 'Stress: 14.605')]
+Total Happiness: 60.0
+[[(9, 0), (8, 0)], [(3, 1), (0, 1), (5, 1)], [(7, 2), (1, 2), (6, 2)], [(2, 3), (4, 3)]]
+Greedy:
+Num Rooms: 1
+Max Stress per room: 20.0
+[('Room: [3, 1, 8, 7, 5, 6, 9, 4, 0, 2]', 'Happiness:25.0', 'Stress: 17.0')]
+Total Happiness: 25.0
+[[(3, 0), (1, 0), (8, 0), (7, 0), (5, 0), (6, 0), (9, 0), (4, 0), (0, 0), (2, 0)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 2.6666666666666665
+[('Room: [7, 3]', 'Happiness:89.296', 'Stress: 1.193'), ('Room: [4, 2]', 'Happiness:71.018', 'Stress: 1.729'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [9]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [6, 0, 8]', 'Happiness:220.448', 'Stress: 0.41800000000000004'), ('Room: [5]', 'Happiness:0', 'Stress: 0')]
+Total Happiness: 380.76200000000006
+[[(7, 0), (3, 0)], [(4, 1), (2, 1)], [(1, 2)], [(9, 3)], [(6, 4), (0, 4), (8, 4)], [(5, 5)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 40.0
+[('Room: [0, 4, 1, 8, 2]', 'Happiness:4.9', 'Stress: 32.440000000000005'), ('Room: [5, 7, 9, 6, 3]', 'Happiness:4.9', 'Stress: 32.44')]
+Total Happiness: 9.8
+[[(0, 0), (4, 0), (1, 0), (8, 0), (2, 0)], [(5, 1), (7, 1), (9, 1), (6, 1), (3, 1)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 14.37975
+[('Room: [0, 2]', 'Happiness:92.315', 'Stress: 4.738'), ('Room: [4, 3]', 'Happiness:38.912', 'Stress: 9.32'), ('Room: [1, 6, 8]', 'Happiness:244.67000000000002', 'Stress: 14.216000000000001'), ('Room: [5, 9, 7]', 'Happiness:134.37099999999998', 'Stress: 8.38')]
+Total Happiness: 510.26800000000003
+[[(0, 0), (2, 0)], [(4, 1), (3, 1)], [(1, 2), (6, 2), (8, 2)], [(5, 3), (9, 3), (7, 3)]]
+Greedy:
+Num Rooms: 7
+Max Stress per room: 14.241428571428571
+[('Room: [2]', 'Happiness:0', 'Stress: 0'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [1, 5]', 'Happiness:55.12', 'Stress: 10.866'), ('Room: [8, 4]', 'Happiness:34.804', 'Stress: 10.074'), ('Room: [9]', 'Happiness:0', 'Stress: 0'), ('Room: [3, 7]', 'Happiness:38.187', 'Stress: 10.103')]
+Total Happiness: 128.111
+[[(2, 0)], [(6, 1)], [(0, 2)], [(1, 3), (5, 3)], [(8, 4), (4, 4)], [(9, 5)], [(3, 6), (7, 6)]]
+Greedy:
+Num Rooms: 7
+Max Stress per room: 1.7142857142857142
+[('Room: [3]', 'Happiness:0', 'Stress: 0'), ('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [7]', 'Happiness:0', 'Stress: 0'), ('Room: [2, 8]', 'Happiness:97.154', 'Stress: 1.328'), ('Room: [5, 4]', 'Happiness:42.916', 'Stress: 0.464'), ('Room: [9, 6]', 'Happiness:35.82', 'Stress: 0.273')]
+Total Happiness: 175.89
+[[(3, 0)], [(0, 1)], [(1, 2)], [(7, 3)], [(2, 4), (8, 4)], [(5, 5), (4, 5)], [(9, 6), (6, 6)]]
+Greedy:
+Num Rooms: 7
+Max Stress per room: 7.142857142857143
+[('Room: [4]', 'Happiness:0', 'Stress: 0'), ('Room: [3, 1]', 'Happiness:67.141', 'Stress: 6.403'), ('Room: [0]', 'Happiness:0', 'Stress: 0'), ('Room: [2]', 'Happiness:0', 'Stress: 0'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [7, 9]', 'Happiness:59.976', 'Stress: 3.138'), ('Room: [8, 5]', 'Happiness:87.277', 'Stress: 4.419')]
+Total Happiness: 214.394
+[[(4, 0)], [(3, 1), (1, 1)], [(0, 2)], [(2, 3)], [(6, 4)], [(7, 5), (9, 5)], [(8, 6), (5, 6)]]
+Greedy:
+Num Rooms: 5
+Max Stress per room: 2.7920000000000003
+[('Room: [2, 9]', 'Happiness:69.085', 'Stress: 1.285'), ('Room: [4, 3]', 'Happiness:73.273', 'Stress: 2.79'), ('Room: [8, 7]', 'Happiness:53.763', 'Stress: 0.768'), ('Room: [5, 1]', 'Happiness:1.257', 'Stress: 0.138'), ('Room: [0, 6]', 'Happiness:64.424', 'Stress: 1.191')]
+Total Happiness: 261.802
+[[(2, 0), (9, 0)], [(4, 1), (3, 1)], [(8, 2), (7, 2)], [(5, 3), (1, 3)], [(0, 4), (6, 4)]]
+Greedy:
+Num Rooms: 2
+Max Stress per room: 12.7075
+[('Room: [1, 0, 5, 6, 4, 7]', 'Happiness:66.191', 'Stress: 12.707'), ('Room: [8, 9, 3, 2]', 'Happiness:26.97400000000001', 'Stress: 5.639000000000001')]
+Total Happiness: 93.16500000000002
+[[(1, 0), (0, 0), (5, 0), (6, 0), (4, 0), (7, 0)], [(8, 1), (9, 1), (3, 1), (2, 1)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 23.214
+[('Room: [0, 7, 6]', 'Happiness:213.486', 'Stress: 9.546'), ('Room: [3, 4, 1, 5]', 'Happiness:366.761', 'Stress: 23.209'), ('Room: [2, 9, 8]', 'Happiness:191.101', 'Stress: 11.248000000000001')]
+Total Happiness: 771.3480000000001
+[[(0, 0), (7, 0), (6, 0)], [(3, 1), (4, 1), (1, 1), (5, 1)], [(2, 2), (9, 2), (8, 2)]]
+Greedy:
+Num Rooms: 4
+Max Stress per room: 9.25
+[('Room: [2, 5]', 'Happiness:33.0', 'Stress: 2.875'), ('Room: [0, 1, 6, 7]', 'Happiness:226.0', 'Stress: 8.5'), ('Room: [8, 4]', 'Happiness:36.0', 'Stress: 4.0'), ('Room: [3, 9]', 'Happiness:49.0', 'Stress: 4.875')]
+Total Happiness: 344.0
+[[(2, 0), (5, 0)], [(0, 1), (1, 1), (6, 1), (7, 1)], [(8, 2), (4, 2)], [(3, 3), (9, 3)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 26.666666666666668
+[('Room: [8, 7, 6, 5]', 'Happiness:43.044', 'Stress: 24.936'), ('Room: [4, 0, 1]', 'Happiness:15.967', 'Stress: 12.054'), ('Room: [2, 9, 3]', 'Happiness:22.664', 'Stress: 17.811999999999998')]
+Total Happiness: 81.675
+[[(8, 0), (7, 0), (6, 0), (5, 0)], [(4, 1), (0, 1), (1, 1)], [(2, 2), (9, 2), (3, 2)]]
+Greedy:
+Num Rooms: 3
+Max Stress per room: 24.0
+[('Room: [9, 7, 8]', 'Happiness:31.090999999999998', 'Stress: 16.861'), ('Room: [6, 5, 4]', 'Happiness:29.746000000000002', 'Stress: 15.254000000000001'), ('Room: [2, 3, 0, 1]', 'Happiness:57.469', 'Stress: 19.825000000000003')]
+Total Happiness: 118.30600000000001
+[[(9, 0), (7, 0), (8, 0)], [(6, 1), (5, 1), (4, 1)], [(2, 2), (3, 2), (0, 2), (1, 2)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 13.720833333333333
+[('Room: [3, 4]', 'Happiness:5.32', 'Stress: 6.874'), ('Room: [8]', 'Happiness:0', 'Stress: 0'), ('Room: [5]', 'Happiness:0.0', 'Stress: 0.0'), ('Room: [6, 1]', 'Happiness:93.503', 'Stress: 10.28'), ('Room: [2, 9]', 'Happiness:54.301', 'Stress: 2.413'), ('Room: [0, 7]', 'Happiness:99.819', 'Stress: 9.122')]
+Total Happiness: 252.94300000000004
+[[(3, 0), (4, 0)], [(8, 1)], [(5, 2)], [(6, 3), (1, 3)], [(2, 4), (9, 4)], [(0, 5), (7, 5)]]
+Greedy:
+Num Rooms: 6
+Max Stress per room: 15.535666666666666
+[('Room: [7, 5]', 'Happiness:81.0', 'Stress: 10.954'), ('Room: [6]', 'Happiness:0', 'Stress: 0'), ('Room: [3, 8]', 'Happiness:81.0', 'Stress: 10.136'), ('Room: [2, 4, 0]', 'Happiness:245.0', 'Stress: 15.311'), ('Room: [1]', 'Happiness:0', 'Stress: 0'), ('Room: [9]', 'Happiness:0.0', 'Stress: 0.0')]
+Total Happiness: 407.0
+[[(7, 0), (5, 0)], [(6, 1)], [(3, 2), (8, 2)], [(2, 3), (4, 3), (0, 3)], [(1, 4)], [(9, 5)]]
