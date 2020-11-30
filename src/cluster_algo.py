@@ -46,7 +46,7 @@ def max_cluster(clusters):
 			max_K = k
 	return max_K
 
-def main(H, S, N_samples):
+def cluster_main(H, S, N_samples):
 	points = map_to_room(H, S)
 	clusters = cluster_kmeans(points, N_samples)
 	return max_cluster(clusters)
@@ -56,7 +56,7 @@ if __name__ == "__main__":
 	S = None
 	N_samples = 10
 	
-	print(main(H, S, N_samples))
+	print(cluster_main(H, S, N_samples))
 
 
 
