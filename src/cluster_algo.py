@@ -16,8 +16,13 @@ def cluster_kmeans(points, N_samples):
 	#has room assignments for k rooms, where k is in a range
 	clusters = [] 
 	
+	#represents assignment for a given value of k
+	assignment = None
+	
 	#evaluate kmeans for k (num_clusters) in the range below:
 	for k in range(int(0.25*N_samples), int(0.75*N_samples)):
+		
+		assignment = [[]*k]
 		
 		#labels shape is (N,)
 		labels = KMeans(n_clusters = k, 
@@ -27,8 +32,13 @@ def cluster_kmeans(points, N_samples):
 				algorithm='auto'
 		).fit(points)).labels_
 		
-		#append room assignment to clusters
-		clusters.append([[i, labels[i]] for i in range(len(labels))])
+		#append room assignment to clusters; WLOG formatted as (room, student_1, student_2...), (room2, student_5), ...
+		for i in range(len(labels)):
+			assignment[label[i]].append(i)
+		clusters.append(assignment)
+		
+		#append room assignment to clusters; WLOG formatted as  (student_1, room), (student_2, room)...
+		# clusters.append([[i, labels[i]] for i in range(len(labels))])
 		
 	#clusters shape is (range(k), N)
 	return clusters
