@@ -13,7 +13,6 @@ def map_rooms_to_plane(H, S):
 	return points
 
 def cluster_kmeans(points, N_samples):
-	
 	#has room assignments for k rooms, where k is in a range
 	clusters = [] 
 	
