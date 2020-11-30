@@ -18,9 +18,14 @@ def cluster_kmeans(points, N_samples):
 	
 	#represents assignment for a given value of k
 	assignment = None
+	lb = 0.0
+	ub = 1.0
+	if N_samples == 50:
+		lb = 0.20
+		ub = 0.75
 	
 	#evaluate kmeans for k (num_clusters) in the range below:
-	for k in range(int(0.25*N_samples), int(0.75*N_samples)):
+	for k in range(int(lb * N_samples) + 1, int(ub * N_samples)):
 		
 		assignment = [[]*k]
 		
