@@ -33,13 +33,13 @@ def cluster_kmeans(points, N_samples):
 	#clusters shape is (range(k), N)
 	return clusters
 
-def max_cluster(clusters):
+def max_cluster(clusters, N_samples):
 	value = 0
 	max_H = 0
 	max_K = None
 	
 	for k in clusters:
-		value = check_assignment(k):
+		value = check_assignment(k, N_samples):
 		if value and value > max_H:
 			max_H = value
 			max_K = k
@@ -48,7 +48,7 @@ def max_cluster(clusters):
 def cluster_main(H, S, N_samples):
 	points = map_to_room(H, S)
 	clusters = cluster_kmeans(points, N_samples)
-	return max_cluster(clusters)
+	return max_cluster(clusters, N_samples)
 
 if __name__ == "__main__":
 	H = None
