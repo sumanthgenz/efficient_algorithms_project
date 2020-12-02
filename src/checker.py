@@ -3,22 +3,22 @@ import numpy as np
 import tqdm
 from tqdm import tqdm
 
-n_students = 10
-h_matrix, s_matrix = np.zeros((n_students, n_students)), np.zeros((n_students, n_students))
-s_max = 1000
+
 
 def fill_matrix(file):
     f = open(file, "r")
-    next(f)
-    next(f)
+    n_students = int(next(f))
+    s_max = float(next(f))
+    H, S = np.zeros((n_students, n_students)), np.zeros((n_students, n_students))
     for line in f:
         val = line.split()
         r, c, h, s = int(val[0]), int(val[1]), float(val[2]), float(val[3])
-        h_matrix[r][c], h_matrix[c][r] = h, h
-        s_matrix[r][c], s_matrix[c][r] = s, s
+        H[r][c], H[c][r] = h, h
+        S[r][c], S[c][r] = s, s
+    return H, S, n_students, s_max
 
 #limited to roughly same room sizes, else "intractable" to enumerate all balls/bins permutations
-def compute_optimal(n_rooms):
+def compute_optimal(n_rooms, s_max, H, S):
     best_score = 0
     best_assign = []
     room_budget = s_max/n_rooms
@@ -32,9 +32,9 @@ def compute_optimal(n_rooms):
             room_stress = 0
             room = perm[i:i+room_size]
             for comb in itertools.combinations(room, 2):
-                perm_happy += h_matrix[comb[0], comb[1]]
-                perm_stress += s_matrix[comb[0], comb[1]]
-                room_stress += s_matrix[comb[0], comb[1]]
+                perm_happy += H[comb[0], comb[1]]
+                perm_stress += S[comb[0], comb[1]]
+                room_stress += S[comb[0], comb[1]]
             if room_stress > room_budget:
                 invalid_room = True
                 break
@@ -45,7 +45,7 @@ def compute_optimal(n_rooms):
                 best_score = perm_happy
     return best_assign, best_score
                 
-def check_assignment(assign, n_rooms):
+def check_assignment(assign, s_max, n_rooms, H, S):
     perm_happy = 0
     perm_stress = 0
     room_budget = s_max/n_rooms
@@ -53,18 +53,20 @@ def check_assignment(assign, n_rooms):
     for room in assign:
         room_stress = 0
         for comb in itertools.combinations(room, 2):
-            perm_happy += h_matrix[comb[0], comb[1]]
-            perm_stress += s_matrix[comb[0], comb[1]]
-            room_stress += s_matrix[comb[0], comb[1]]
+            perm_happy += H[comb[0], comb[1]]
+            perm_stress += S[comb[0], comb[1]]
+            room_stress += S[comb[0], comb[1]]
             if room_stress > room_budget:
                 return False
-    return perm_happy, perm_stress
+    # return perm_happy, perm_stress
+    return perm_happy
         
     
 
 if __name__=="__main__":
-    fill_matrix("input10.txt")
-    compute_optimal(4)
-    check_assignment([[0, 2, 4, 8], [6, 5, 4], [1, 9], [1]], 4)
+    n_students = 10
+    H, S, n_students, s_max = fill_matrix("input10.txt")
+    compute_optimal(4, s_max, H, S)
+    check_assignment([[0, 2, 4, 8], [6, 5, 4], [1, 9], [1]], s_max, 4, H, S)
 
 
