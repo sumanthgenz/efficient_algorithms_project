@@ -9,12 +9,13 @@ s_max = 1000
 
 def fill_matrix(file):
     f = open(file, "r")
+    next(f)
+    next(f)
     for line in f:
         val = line.split()
         r, c, h, s = int(val[0]), int(val[1]), float(val[2]), float(val[3])
         h_matrix[r][c], h_matrix[c][r] = h, h
         s_matrix[r][c], s_matrix[c][r] = s, s
-
 
 #limited to roughly same room sizes, else "intractable" to enumerate all balls/bins permutations
 def compute_optimal(n_rooms):
