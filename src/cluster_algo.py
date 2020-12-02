@@ -10,6 +10,21 @@ def map_rooms_to_plane(H, S):
 	
 	# return points, which is a (N, D) numpy array, where N is num_students, D is 3D coordinate
 	# points have to be in the same order as student_1, student_2, ... student_N
+
+	N = len(H)
+        def getD(i, j):
+            return pow(S[i][j]/(H[i][j] + .01) + 5, 1/4)
+	m = [[0 for _ in range(N)] for _ in range(N)]
+        for i in range(N):
+            for j in range(N):
+                m[i][j] = 0.5*(((getD(1,i))**2) + ((getD(1,j))**2) - ((getD(i,j))**2))
+        M = np.array(m)
+        q, r = np.linalg.qr(A)
+        b1 = q[:,0]
+        b2 = q[:,1]
+        points = []
+        for i in range(N):
+            points.append((np.dot(b1,M[:,i]),np.dot(b2,M[:,i])))
 	return points
 
 def cluster_kmeans(points, N_samples):
@@ -71,6 +86,7 @@ if __name__ == "__main__":
 	N_samples = 10
 	
 	print(cluster_main(H, S, N_samples))
+
 
 
 
