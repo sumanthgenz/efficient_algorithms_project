@@ -212,12 +212,12 @@ if __name__ == '__main__':
 
 
     num_rollouts = 2
-    inputs = glob.glob('data/inputs/large?*.in')
+    inputs = glob.glob('data/inputs/medium?*.in')
     for input_path in inputs:
 
         cores = multiprocessing.cpu_count()
         paths = [input_path] * num_rollouts
-        output_path = 'data/anik_large_outputs/' + basename(normpath(input_path))[:-3] + '.out'
+        output_path = 'data/outputs/' + basename(normpath(input_path))[:-3] + '.out'
 
         with multiprocessing.Pool(cores) as p:
             rollouts = p.map(solo_main, paths)
