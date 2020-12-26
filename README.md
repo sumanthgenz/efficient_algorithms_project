@@ -1,4 +1,4 @@
-# efficient algorithms project
+# efficient approximation algorithms
 
 Input:  A list of nodes N (length of list vary from 10, 20, 50), pairwise positive happiness reward H and negative stress S between all pairs of nodes and a total negative stress budget S_max. 
 
